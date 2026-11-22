@@ -1,0 +1,43 @@
+{
+  "full_pool_prepare": true,
+  "maximum_epochs": 60,
+  "batch": {
+    "version": "full_trajectory_batch_v1",
+    "batch_size": 2,
+    "grouping": "adjacent_registered_deck_visits",
+    "tail_policy": "keep_singleton",
+    "loss_reduction": "mean_per_trajectory_in_actual_batch",
+    "optimizer_steps": "one_per_batch",
+    "ema_steps": "one_per_optimizer_step",
+    "learning_rate": "unchanged_no_automatic_scaling",
+    "geometry": "original_selection_per_visit",
+    "noise": "original_randn_then_randint_per_visit",
+    "history": "independent_complete_real_prefix"
+  },
+  "visit_version": "fresh_random_visit_training_v1",
+  "roles": {
+    "A": {
+      "train": 130,
+      "validation": 6,
+      "visits_per_deck": 190,
+      "parent_dp_sha256": "244ebfd5ad6a6081ed89a99d4b51c3844e476c30d0cc04eacf75c9aed5a9888e",
+      "source_statistics_sha256": "b62c366d37bb554cf88cc970d40fd84ce79b304d6b306c2735925bba2a7e0c34"
+    },
+    "B": {
+      "train": 130,
+      "validation": 6,
+      "visits_per_deck": 190,
+      "parent_dp_sha256": "ecd2c4d97f2929ba67af7e2cd14e6aca6d3b2b238720ff775debe1e6d6788134",
+      "source_statistics_sha256": "779baae89d0b06cddc26d5b1e7b77239e9776c1f29cda31ab0bfaabd96124117"
+    }
+  },
+  "scope": "Local extraction check; clean-clone acceptance recorded separately",
+  "all_raw_files_reconstructed": true,
+  "asset_paths": {
+    "robot_urdf": "assets/urdf/kuka_sharpa_description/iiwa14_left_sharpa_adjusted_restricted.urdf",
+    "table_urdf": "assets/urdf/table_narrow.urdf",
+    "object_urdf": "/home/CNS2025331827/docs/tight-insertion-policy-course/assets/urdf/peg_in_hole/lpeg_matchedmass/lpeg_matchedmass.urdf",
+    "receptive_urdf": "/home/CNS2025331827/docs/tight-insertion-policy-course/assets/urdf/peg_in_hole/holes/hole_tol0p5mm/hole_tol0p5mm.urdf"
+  },
+  "prepared_root": "outputs/full_prepare_check03"
+}

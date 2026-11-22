@@ -105,7 +105,11 @@ def smoke_run(root,role):
 def main():
  p=argparse.ArgumentParser(description=__doc__);p.add_argument('stage',choices=['prepare','visual','dp','nominal','transformer','all','smoke'])
  p.add_argument('--root',type=Path,default=ROOT/'outputs/train');p.add_argument('--role',choices=['A','B'],default='A');p.add_argument('--hours',type=float,default=96)
+ p.add_argument('--gpu-wait-seconds',type=float,default=900)
  a=p.parse_args();root=a.root.resolve()
+ if a.stage!='prepare':
+  from course.resources import wait_for_gpu
+  wait_for_gpu(14 if a.stage in ('all','dp') else 8,a.gpu_wait_seconds)
  if a.stage in ('prepare','all','smoke'):prepare(root,a.role,a.stage=='smoke',a.hours)
  if a.stage in ('visual','all','smoke'):visual(root,a.role,a.stage=='smoke')
  if a.stage=='smoke':smoke_run(root,a.role);return

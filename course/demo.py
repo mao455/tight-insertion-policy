@@ -20,9 +20,12 @@ def main():
     parser.add_argument('--seed', type=int, default=28853000)
     parser.add_argument('--checkpoint-dir', type=Path)
     parser.add_argument('--keep-open', action='store_true')
+    parser.add_argument('--gpu-wait-seconds',type=float,default=900)
     args = parser.parse_args()
     if not os.environ.get('DISPLAY'):
         raise RuntimeError('A real graphical desktop DISPLAY is required for this demo')
+    from course.resources import wait_for_gpu
+    wait_for_gpu(5,args.gpu_wait_seconds)
     output = args.output.resolve()
     output.mkdir(parents=True, exist_ok=False)
     os.environ.setdefault('TMPDIR', str(output/'tmp'))

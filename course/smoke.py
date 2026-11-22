@@ -91,9 +91,9 @@ def run(root,role):
  if reload_error>1e-6:raise AssertionError('Reloaded Transformer predictions differ')
 
  if any(not torch.equal(v.cpu(),reloaded['model'][k]) for k,v in expected.items()):raise AssertionError('Saved/reloaded Transformer differs')
- deploy=root/'deploy';deploy.mkdir();shutil.copy2(dp,deploy/'A_130_50_dp.pt');shutil.copy2(rear,deploy/'A_130_50_transformer.pt');shutil.copy2(stats_path,deploy/'u_statistics.pt')
+ deploy=root/'deploy';deploy.mkdir();shutil.copy2(dp,deploy/f'{role}_130_50_dp.pt');shutil.copy2(rear,deploy/f'{role}_130_50_transformer.pt');shutil.copy2(stats_path,deploy/'u_statistics.pt')
  from course.policy import load_pair
- loaded=load_pair(deploy,published=False)
+ loaded=load_pair(deploy,published=False,role=role)
  write(out/'result.json',dict(passed=True,scope='Real-data pipeline smoke only; one DP update and two Transformer updates, not full retraining',
   dp_updates=1,dp_parameter_max_change=changed,transformer_updates=updates,transformer_parameter_max_change=rear_changed,
   transformer_losses=losses,nominal_episodes=ids,dp_sha256=sha256(dp),transformer_sha256=sha256(rear),pair_reload=True,transformer_reload_prediction_max_abs=reload_error))

@@ -6,6 +6,7 @@ conda activate isaaclab
 bash scripts/environment.sh
 gh auth login
 .venv/bin/python -m course.download demo
+.venv/bin/python -m pip install --no-deps --no-build-isolation -e resources/sdk/IsaacLab/source/isaaclab
 ```
 
 ## Success rate

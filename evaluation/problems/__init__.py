@@ -1,12 +1,4 @@
-"""Unified registry for precise-assembly problem instances.
-
-A `Problem` is the triple `(insertion_object, receptive_object, insert_poses)`
-that fully specifies a precise-assembly env configuration. Each sub-package
-(`peg`, `fabrica`, `furniture_bench`) registers its problems into
-`PROBLEM_REGISTRY` on import; importing `evaluation.problems` triggers all of
-them. The registry is then filtered down to the four problems released here
-(see `_RELEASED_PROBLEMS` at the bottom of this file).
-"""
+"""Native Tight-Insertion problem and insertion-subgoal sequence."""
 
 from dataclasses import dataclass
 from math import sqrt
@@ -135,9 +127,8 @@ from . import peg               # noqa: E402, F401
 
 
 # The data-driven registration above populates PROBLEM_REGISTRY with every
-# problem variant the shipped assets support. This release exposes only the four
-# assembly tasks from the paper, under their public (branded) names. We keep the
-# internal registration logic intact and remap the four kept entries here.
+# problem variant the shipped assets support. This release exposes only
+# the native Tight-Insertion task.
 import dataclasses as _dc  # noqa: E402
 
 # branded public name -> internal registry key produced by the registration code

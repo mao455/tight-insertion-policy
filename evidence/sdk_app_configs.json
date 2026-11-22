@@ -3,7 +3,9 @@
     "path": "resources/sdk/IsaacLab/apps/isaaclab.python.kit",
     "source_revision": "090aed18163b2194d5551c7919f7539283677743",
     "source_path": "apps/isaaclab.python.kit",
-    "sha256": "c1bd3ad4796249923b3d82994abcb40c779a9bf9bae55647348a115d30b0d9a2"
+    "sha256": "1fbfe7a2cf132d1fe12a4e654a5b335daf34b48bfcc8926ca0fbd1347ef8842b",
+    "source_sha256": "c1bd3ad4796249923b3d82994abcb40c779a9bf9bae55647348a115d30b0d9a2",
+    "adaptation": "Remove unrelated Isaac Lab task/assets/mimic/RL extension dependencies. The course bundles its own native task/assets and requires only the framework; keep physics/render settings unchanged."
   },
   {
     "path": "resources/sdk/IsaacLab/apps/isaaclab.python.rendering.kit",

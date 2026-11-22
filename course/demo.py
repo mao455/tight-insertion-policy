@@ -1,4 +1,4 @@
-"""One complete autonomous episode in the real Isaac Sim main window."""
+"""A fixed four-lane autonomous demonstration in the Isaac Sim main window."""
 import argparse
 from contextlib import nullcontext
 import json
@@ -112,6 +112,7 @@ def main():
     atomic_json(output/'env_origins.json',env.scene.env_origins.cpu().tolist())
     initial_q = env._diagnostics()['joint_position_rad'].clone()
     rows=[]
+    lane_rows=[[] for _ in range(args.num_envs)]
     active=[True]*args.num_envs
     terminals={}
     began=time.perf_counter()
@@ -119,6 +120,12 @@ def main():
     for tick in range(max_steps):
         if not app.is_running():
             raise RuntimeError('GUI window closed before native evaluator terminal')
+        # Fixed camera schedule, independent of outcomes; only the viewport
+        # moves. Policy RGB-D cameras retain their original calibrated poses.
+        if tick%120==0:
+            shown=(lane+tick//120)%args.num_envs
+            origin=env.scene.env_origins[shown].cpu().numpy()
+            env.sim.set_camera_view(eye=origin+np.array((1.25,1.10,1.05)),target=origin+np.array((0.,0.,.65)))
         with torch.no_grad():
             packet=env.research_packet
             command=controller.act(packet, env._diagnostics(), active)
@@ -131,9 +138,14 @@ def main():
             rows.append(dict(tick=tick,physics_steps=2*(tick+1),q=q.tolist(),
                 native_subgoals=int(transition['diagnostics_after']['successes'][lane]),
                 object_pose=transition['diagnostics_after']['object_pose_w'][lane].cpu().tolist()))
+            for index,running in enumerate(active):
+                if running:
+                    d=transition['diagnostics_after']
+                    lane_rows[index].append(dict(tick=tick,q=d['joint_position_rad'][index].cpu().tolist(),
+                        object_pose=d['object_pose_w'][index].cpu().tolist(),native_subgoals=int(d['successes'][index])))
         if tick%30==0:
             print(f'GUI control_tick={tick+1} physics_steps={2*(tick+1)} native_subgoals={rows[-1]["native_subgoals"]}',flush=True)
-        if tick in (0,60,180,360):
+        if tick in (0,60,180,300,360,480,600):
             try:
                 from PIL import ImageGrab
                 ImageGrab.grab(xdisplay=os.environ['DISPLAY']).save(output/f'gui_tick_{tick:04d}.png')
@@ -141,18 +153,26 @@ def main():
                 print('Desktop screenshot unavailable:',error,flush=True)
         for index in range(args.num_envs):
             if active[index] and bool((terminated|truncated)[index]):
-                terminals[index]=dict(steps=tick+1,success=bool(transition['termination_reasons']['max_successes'][index]))
+                terminals[index]=dict(steps=tick+1,physics_steps=2*(tick+1),
+                    success=bool(transition['termination_reasons']['max_successes'][index]),
+                    reasons={k:bool(v[index]) for k,v in transition['termination_reasons'].items()},
+                    native_subgoals=int(transition['diagnostics_after']['successes'][index]))
                 active[index]=False
-        if bool((terminated|truncated)[lane]):
-            result=dict(success=reasons['max_successes'],reasons=reasons,software_complete=True,
+                print(f'NATIVE EVALUATOR lane {index}: '+('SUCCESS' if terminals[index]['success'] else 'FAILURE')+' '+json.dumps(terminals[index]),flush=True)
+        if not any(active):
+            selected=terminals[lane]
+            result=dict(success=selected['success'],reasons=selected['reasons'],software_complete=True,
                 legal=True,steps=tick+1,physics_steps=2*(tick+1),native_subgoals=rows[-1]['native_subgoals'],
                 policy='A_130_50',seed=args.seed,expert_used=False,gui=True,
-                allocated_envs=args.num_envs,demonstration_lane=lane,context_policy='Same published A pair in every lane',other_terminals=terminals,
+                allocated_envs=args.num_envs,demonstration_lane=lane,context_policy='Same published A pair in every lane',
+                all_lane_results=terminals,successful_episodes=sum(t['success'] for t in terminals.values()),
+                camera_schedule='(demonstration_lane + control_tick // 120) % num_envs; independent of outcomes',
                 elapsed_s=time.perf_counter()-began,
                 maximum_joint_displacement_rad=max(abs(a-b) for row in rows for a,b in zip(row['q'],initial_q[lane].cpu().tolist())))
             atomic_json(output/'result.json',result)
             atomic_json(output/'trace.json',rows)
-            print('NATIVE EVALUATOR: '+('SUCCESS' if result['success'] else 'FAILURE')+' '+json.dumps(result),flush=True)
+            atomic_json(output/'all_lane_trace.json',lane_rows)
+            print(f'NATIVE EVALUATOR: {result["successful_episodes"]}/{args.num_envs} SUCCESSFUL EPISODES; '+json.dumps(result),flush=True)
             break
     else:
         raise RuntimeError('Native evaluator did not terminate within its original finite bound')

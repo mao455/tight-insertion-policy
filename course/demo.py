@@ -46,7 +46,7 @@ def main():
         utc=time.time()))
     from isaaclab.app import AppLauncher
     app = AppLauncher(headless=False, enable_cameras=True, device='cuda:0', fast_shutdown=False,
-        kit_args='--/rtx/descriptorSets=360000 --/rtx/reservedDescriptors=900000 --/renderer/multiGpu/enabled=false --/plugins/carb.tasking.plugin/threadCount=4 --/persistent/physics/numThreads=2 --/app/extensions/fsWatcherEnabled=false').app
+        kit_args='--/rtx/descriptorSets=360000 --/rtx/reservedDescriptors=900000 --/renderer/multiGpu/enabled=false --/plugins/carb.tasking.plugin/threadCount=16 --/persistent/physics/numThreads=2 --/app/extensions/fsWatcherEnabled=false').app
     import torch
     from visuotactile.precision import state_fp32
     state_fp32()
@@ -55,7 +55,8 @@ def main():
     from visuotactile.narrow_data import direct_configuration, configure_direct_reset, configure_direct_reset_lanes
     from visuotactile.live_collision import clearance
     from visuotactile.models.native_vision import NativeDinoSpatial
-    from visuotactile.gpu_batch_controller import GPUBatchedResidualController
+    from visuotactile.gpu_batch_controller import MultiPolicyController
+    from visuotactile.batched_controller import lane_tree
     contract = json.loads((ROOT/'configs/domain.json').read_text())
     config = direct_configuration(contract['domain'], args.seed)
     # Exact native layout: fixed displacement direction from the domain center.
@@ -67,7 +68,7 @@ def main():
     atomic_json(output/'reset_configuration.json', config)
     env = make_env(True, LocalLease(), num_envs=args.num_envs, scene_queries=True, camera_content_validation=True,
         execution_backend={'version':'tight_execution_backend_v2','physics_device':'cuda:0',
-            'camera_backend':'standard','kit_tasking_threads':4,'physics_threads':2,
+            'camera_backend':'standard','kit_tasking_threads':16,'physics_threads':2,
             'renderer_descriptor_sets':360000,'renderer_reserved_descriptors':900000})
     from visuotactile.current_render import CurrentRenderReuse
     render_reuse = CurrentRenderReuse(env)
@@ -99,8 +100,11 @@ def main():
     metadata['env_origins_w'] = env.scene.env_origins.cpu().tolist()
     atomic_json(output/'metadata.json', metadata)
     dino = NativeDinoSpatial().cuda().eval()
-    controller = GPUBatchedResidualController(saved, metadata, dino, args.num_envs, neural_batch=True,
+    # Frozen24 shared DINO across four lanes but ran each policy's DP/rear
+    # with one assigned lane. Preserve both neural kernel shapes here.
+    controller = MultiPolicyController({str(i):saved for i in range(args.num_envs)}, metadata, dino, args.num_envs, neural_batch=True,
         scheduler_index_mode='host', vision_microbatch=2)
+    for index in range(args.num_envs): controller.assign(index,str(index))
     from isaaclab.sim import SimulationContext
     origin=env.scene.env_origins[lane].cpu().numpy()
     env.sim.set_camera_view(eye=origin+np.array((1.25,1.10,1.05)), target=origin+np.array((0.,0.,.65)))
@@ -120,7 +124,8 @@ def main():
             command=controller.act(packet, env._diagnostics(), active)
             _,_,terminated,truncated,_=isolated.step(command)
             transition=env.last_transition
-            controller.observe_execution(transition,active)
+            for index,running in enumerate(active):
+                if running: controller.lanes[index].observe_execution(lane_tree(transition,index,args.num_envs))
             reasons={k:bool(v[lane]) for k,v in transition['termination_reasons'].items()}
             q=transition['diagnostics_after']['joint_position_rad'][lane].cpu()
             rows.append(dict(tick=tick,physics_steps=2*(tick+1),q=q.tolist(),

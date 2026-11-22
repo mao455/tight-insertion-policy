@@ -1,0 +1,24 @@
+{
+  "visibility": "private",
+  "owner_download_test": true,
+  "non_author_access_verified": false,
+  "reason": "No teaching-team GitHub account supplied; invitation and acceptance pending.",
+  "anonymous_checks": [
+    {
+      "url": "https://github.com/mao455/tight-insertion-policy",
+      "http_status": 404,
+      "authorization": "none"
+    },
+    {
+      "url": "https://api.github.com/repos/mao455/tight-insertion-policy",
+      "http_status": 404,
+      "authorization": "none"
+    },
+    {
+      "url": "https://github.com/mao455/tight-insertion-policy/releases/download/resources-v1/demo-A_130_50.tar.gz",
+      "http_status": 404,
+      "authorization": "none"
+    }
+  ],
+  "checked_utc": 1795353723.1867428
+}

@@ -608,8 +608,8 @@
   {
     "path": "visuotactile/inactive_render_products.py",
     "source_commit_sha256": "83b993908047383ce90a90c4cda47fced3a66ce14e1359bf67c747bd81a8582d",
-    "course_sha256": "83b993908047383ce90a90c4cda47fced3a66ce14e1359bf67c747bd81a8582d",
-    "adapted": false
+    "course_sha256": "b39d611e6c273b52dbf8ab9f0aedc38c35ba7e5eeea08629a8cad75755780a08",
+    "adapted": true
   },
   {
     "path": "visuotactile/initial_geometry.py",

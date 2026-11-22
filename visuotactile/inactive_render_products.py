@@ -17,10 +17,12 @@ PROFILE = dict(version='standard_inactive_render_products_v1', physics_device='c
     camera_backend='standard', views=3, retirement='whole_wave_monotone',
     frame_proof='hydra_drawable_event_and_host_physics_step_v1',
     inactive_packet='invalid_camera_time_frame_minus_one_pose_zero_v1')
-_ISAAC = Path('/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/extscache')
+import importlib.metadata
+import importlib.util
+_ISAAC = Path(importlib.metadata.distribution('isaacsim').locate_file('isaacsim/extscache'))
 _REP = _ISAAC/'omni.replicator.core-1.12.27+107.3.3.lx64.r.cp311/omni/replicator/core/scripts'
 _HYDRA = _ISAAC/'omni.kit.hydra_texture-1.4.6+69cbf6ad.lx64.r.cp311/omni/hydratexture/_hydra_texture.pyi'
-_LAB = Path('/home/CNS2025331827/docs/IsaacLab_DexAssemble-sharpa/source/isaaclab/isaaclab/sensors')
+_LAB = Path(importlib.util.find_spec('isaaclab').origin).parent/'sensors'
 INSTALLED_SOURCES = {
     str(_HYDRA): 'd8b91af9acdf9546dc20e58893a5d6c205f65c0789cdc0f9ff2e9f2b441a6132',
     str(_REP/'utils/viewport_manager.py'): '9d233c062a552fcb77615c9244c9556797cebc1f39e672a9abfd3c9f34d05516',

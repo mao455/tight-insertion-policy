@@ -317,5 +317,7 @@
     }
   ],
   "release_asset_digests_verified": 39,
-  "checked_utc": 1795356517.8579595
+  "checked_utc": 1795356517.8579595,
+  "anonymous_full_download_checks": "evidence/acceptance/anonymous_large_download.json",
+  "credential_requirement": "None for Git, default checkpoint, training data, parent weights or source assets"
 }

@@ -1,0 +1,25 @@
+{
+  "no_external_resource_symlinks": true,
+  "verified_runtime_files": [
+    {
+      "file": "resources/A_130_50_dp.pt",
+      "sha256": "df4782e5f1640ef10da89ce95d174e90da0703a969fc29e2a80841bbcd4c78fa",
+      "bytes": 1165628285
+    },
+    {
+      "file": "resources/A_130_50_transformer.pt",
+      "sha256": "36e6b6e7bcd06aef7577320a3eb6309b4c4153ce09c173374f2d3bc9587554e9",
+      "bytes": 9750221
+    },
+    {
+      "file": "resources/u_statistics.pt",
+      "sha256": "779baae89d0b06cddc26d5b1e7b77239e9776c1f29cda31ab0bfaabd96124117",
+      "bytes": 4043
+    },
+    {
+      "file": "resources/dinov2_vits14_pretrain.pth",
+      "sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+      "bytes": 88283115
+    }
+  ]
+}

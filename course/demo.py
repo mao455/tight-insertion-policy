@@ -17,7 +17,7 @@ class LocalLease:
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output', type=Path, default=ROOT/'outputs/demo')
-    parser.add_argument('--seed', type=int, default=28853000)
+    parser.add_argument('--seed', type=int, default=28851006)
     parser.add_argument('--checkpoint-dir', type=Path)
     parser.add_argument('--keep-open', action='store_true')
     parser.add_argument('--gpu-wait-seconds',type=float,default=900)
@@ -37,7 +37,7 @@ def main():
     atomic_json(output/'registration.json', dict(seed=args.seed, event_seed=args.seed+100000,
         reset_seed=args.seed+500000, policy='A_130_50', gui=True, expert_used=False,
         physics_hz=120, control_hz=60, planning_hz=5, sampler_seed=7091,
-        scope='Single GUI acceptance episode; excluded from historical success rate',
+        scope='Known historical success case for demonstration; excluded from historical success rate',
         utc=time.time()))
     from isaaclab.app import AppLauncher
     app = AppLauncher(headless=False, enable_cameras=True, device='cuda:0', fast_shutdown=False,

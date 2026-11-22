@@ -1,0 +1,23 @@
+{
+  "reason": "User reduced delivery scope to code and checkpoint; no full-data transfer required",
+  "stopped": [
+    {
+      "pid": 1842263,
+      "script": "outputs/receive_public_release.py"
+    },
+    {
+      "pid": 1862477,
+      "script": "outputs/acceptance_full_prepare.py"
+    },
+    {
+      "pid": 1864232,
+      "script": "outputs/receive_release_tail.py"
+    },
+    {
+      "pid": 1872417,
+      "script": "outputs/receive_release_middle.py"
+    }
+  ],
+  "utc": 1795358603.8265536,
+  "full_clean_prepare": "Not executed; superseded by user scope. Real-data short training already passed."
+}

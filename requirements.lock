@@ -1,0 +1,16 @@
+# Python 3.11; install torch/vision from the cu128 wheel index first.
+numpy==1.26.0
+torch==2.7.0
+torchvision==0.22.0
+diffusers==0.39.0
+einops==0.8.2
+h5py==3.16.0
+PyYAML==6.0.2
+trimesh==4.5.1
+yourdfpy==0.0.60
+python-fcl==0.7.0.11
+gymnasium==1.2.1
+gym==0.23.1
+psutil==5.9.8
+Pillow==11.3.0
+matplotlib==3.10.3

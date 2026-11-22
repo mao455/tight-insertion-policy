@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "scope": "Real-data pipeline smoke only; one DP update and two Transformer updates, not full retraining",
+  "dp_updates": 1,
+  "dp_parameter_max_change": 2.9999762773513794e-05,
+  "transformer_updates": 2,
+  "transformer_parameter_max_change": 0.00020012259483337402,
+  "transformer_losses": [
+    0.04045472666621208,
+    0.037856537848711014
+  ],
+  "nominal_episodes": [
+    "layout10_train_28817000",
+    "layout10_train_28817001",
+    "layout10_validation_28818000"
+  ],
+  "dp_sha256": "5451105aa084a88be4fcfa1f7a682ca44218a24d381b2e5f85e98b3b6de2b848",
+  "transformer_sha256": "13190dc93341e79f573957882d83dfaee125d39c935138b048270636af6f2335",
+  "pair_reload": true
+}

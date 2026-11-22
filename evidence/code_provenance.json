@@ -1,0 +1,980 @@
+[
+  {
+    "path": "course/__init__.py",
+    "source_commit_sha256": null,
+    "course_sha256": "b9b057dd0f49df6551766b96373d7b451a3395c1ad06df40eabe4d61175e54bc",
+    "adapted": true
+  },
+  {
+    "path": "course/check_environment.py",
+    "source_commit_sha256": null,
+    "course_sha256": "0fd2ec96611171a64de9e5e04cd11ebfee60640a37cd416a0a87f5eb5c5bdff8",
+    "adapted": true
+  },
+  {
+    "path": "course/demo.py",
+    "source_commit_sha256": null,
+    "course_sha256": "1360746c9bc612e0b842c82d71b23375e989feac4959d161c78ea6335e11d21e",
+    "adapted": true
+  },
+  {
+    "path": "course/download.py",
+    "source_commit_sha256": null,
+    "course_sha256": "808b0313ecc4709f90a17978c0541aed35bbe1f933997cb3a9fc586e35789e9c",
+    "adapted": true
+  },
+  {
+    "path": "course/environment.py",
+    "source_commit_sha256": null,
+    "course_sha256": "fcd9bdf4dba8c2207dbff67fdbb23d13bc5af48afab6cffaf3803c2fb2f605b0",
+    "adapted": true
+  },
+  {
+    "path": "course/policy.py",
+    "source_commit_sha256": null,
+    "course_sha256": "a46762e7c322a17873e7217da32aa4d5582cf45012ae3d34559d50f4f30f3626",
+    "adapted": true
+  },
+  {
+    "path": "course/resources.py",
+    "source_commit_sha256": null,
+    "course_sha256": "f9449a285fb0190d568b29d168cbece3594ed48c0aa716e31714aeccf2532ecc",
+    "adapted": true
+  },
+  {
+    "path": "course/smoke.py",
+    "source_commit_sha256": null,
+    "course_sha256": "1a71d79f2eee25632d40f30a11254e3e488fc9bd7982d279f3cb1e4f0b77934f",
+    "adapted": true
+  },
+  {
+    "path": "course/train.py",
+    "source_commit_sha256": null,
+    "course_sha256": "86df8a8173f0f19fc144d2cefc7d67efc57a3831fcdb047dbd7640a5d1239fca",
+    "adapted": true
+  },
+  {
+    "path": "evaluation/__init__.py",
+    "source_commit_sha256": "c33f18ee70cc97596888b1f6485d244abd704b6d750925f9c757b18849f8f3ae",
+    "course_sha256": "c33f18ee70cc97596888b1f6485d244abd704b6d750925f9c757b18849f8f3ae",
+    "adapted": false
+  },
+  {
+    "path": "evaluation/_viser_demo.py",
+    "source_commit_sha256": "89ef72d5a0e901ad9ac2e02a2f2848fdf0054ebb3e5103443e3220daef2d0612",
+    "course_sha256": "89ef72d5a0e901ad9ac2e02a2f2848fdf0054ebb3e5103443e3220daef2d0612",
+    "adapted": false
+  },
+  {
+    "path": "evaluation/eval_isaacsim.py",
+    "source_commit_sha256": "b79d1e1ed17f61ddb881d71e32c6241dba6e06f8c808027a2a2853d17759dcb5",
+    "course_sha256": "b79d1e1ed17f61ddb881d71e32c6241dba6e06f8c808027a2a2853d17759dcb5",
+    "adapted": false
+  },
+  {
+    "path": "evaluation/objects.py",
+    "source_commit_sha256": "59a1e6d34dc1741812c7105ea33df04491437ac82950ba32858646f9543866ee",
+    "course_sha256": "59a1e6d34dc1741812c7105ea33df04491437ac82950ba32858646f9543866ee",
+    "adapted": false
+  },
+  {
+    "path": "evaluation/problems/__init__.py",
+    "source_commit_sha256": "0966a87c1fe062746f5de1327ce3448fee36bd9b73ac566f220df1d3e7366bb1",
+    "course_sha256": "aea817c733c46427012ddc66d9eadab991726f86c2d00173aaf9a55ca7af1f50",
+    "adapted": true
+  },
+  {
+    "path": "evaluation/problems/peg/__init__.py",
+    "source_commit_sha256": "034927da97858ac5b893622c107d268e319c88901568fb1c942dd246d1e12d3d",
+    "course_sha256": "034927da97858ac5b893622c107d268e319c88901568fb1c942dd246d1e12d3d",
+    "adapted": false
+  },
+  {
+    "path": "evaluation/problems/peg/objects.py",
+    "source_commit_sha256": "2de9d34941c449d1aaa0d76f7ba8f95446c4a4082cb775c836600536bedb488e",
+    "course_sha256": "2de9d34941c449d1aaa0d76f7ba8f95446c4a4082cb775c836600536bedb488e",
+    "adapted": false
+  },
+  {
+    "path": "evaluation/problems/peg/problems.py",
+    "source_commit_sha256": "ab7dfcde4e14c69dc5ca6069e075150131992a37dfc5f32537324f146e8d944c",
+    "course_sha256": "ab7dfcde4e14c69dc5ca6069e075150131992a37dfc5f32537324f146e8d944c",
+    "adapted": false
+  },
+  {
+    "path": "isaacsimenvs/__init__.py",
+    "source_commit_sha256": "b5b9694e156aeb9bb3c1fc3711e81c7f50c5fafc551801d5c9c2b2a3cddb4153",
+    "course_sha256": "b5b9694e156aeb9bb3c1fc3711e81c7f50c5fafc551801d5c9c2b2a3cddb4153",
+    "adapted": false
+  },
+  {
+    "path": "isaacsimenvs/tasks/__init__.py",
+    "source_commit_sha256": "8b7e8bd8ed59988ef0cf3457138dedc74ebd4cf0357d07b68b9caf19c945d6ea",
+    "course_sha256": "c5152c1b7df628bb0efd51f1298c1859e2972445a818956e882d949e9cc06caf",
+    "adapted": true
+  },
+  {
+    "path": "isaacsimenvs/tasks/play/__init__.py",
+    "source_commit_sha256": "928cc880fe1c1edb0019158bbf761fbae0ab4d5bd514c746b12e68d0372b31e7",
+    "course_sha256": "ae93d2467677ce8ffe6ea7dbd59e7236802aaa4b129f62e3e4a83d90f993a85e",
+    "adapted": true
+  },
+  {
+    "path": "isaacsimenvs/tasks/play/play_env.py",
+    "source_commit_sha256": "cb662949c715a4c07c014ea38659ffcb6e5345e556b92919790e08cf39065300",
+    "course_sha256": "cb662949c715a4c07c014ea38659ffcb6e5345e556b92919790e08cf39065300",
+    "adapted": false
+  },
+  {
+    "path": "isaacsimenvs/tasks/play/play_env_cfg.py",
+    "source_commit_sha256": "05bfbc1ccde2c77882be4dab787fa25c3e59dac7bd80e8a259323c8e5b04cf7b",
+    "course_sha256": "05bfbc1ccde2c77882be4dab787fa25c3e59dac7bd80e8a259323c8e5b04cf7b",
+    "adapted": false
+  },
+  {
+    "path": "isaacsimenvs/tasks/play/utils/__init__.py",
+    "source_commit_sha256": "911fff80db44b5585db333ed3488ddb73599575ecb7a25025325acf79998144b",
+    "course_sha256": "911fff80db44b5585db333ed3488ddb73599575ecb7a25025325acf79998144b",
+    "adapted": false
+  },
+  {
+    "path": "isaacsimenvs/tasks/play/utils/action_utils.py",
+    "source_commit_sha256": "ef367ff0013661e3e535a36b0e475fd902a10c4e9c6dd418440665eaf8a480f3",
+    "course_sha256": "ef367ff0013661e3e535a36b0e475fd902a10c4e9c6dd418440665eaf8a480f3",
+    "adapted": false
+  },
+  {
+    "path": "isaacsimenvs/tasks/play/utils/generate_objects.py",
+    "source_commit_sha256": "08c03641e56daf06e9f8a720b517e52fe5176c8d997b2f7722fa7997a0aec2cd",
+    "course_sha256": "08c03641e56daf06e9f8a720b517e52fe5176c8d997b2f7722fa7997a0aec2cd",
+    "adapted": false
+  },
+  {
+    "path": "isaacsimenvs/tasks/play/utils/goal_sampling.py",
+    "source_commit_sha256": "cede8986d4847aa0d1d9bae99d9333d191ce413c90fe1b44e7b30980994369f4",
+    "course_sha256": "cede8986d4847aa0d1d9bae99d9333d191ce413c90fe1b44e7b30980994369f4",
+    "adapted": false
+  },
+  {
+    "path": "isaacsimenvs/tasks/play/utils/logging_utils.py",
+    "source_commit_sha256": "cd9f507ae2351cf463a4bee1bef1708cf13c1aa460d4e9950ccfd1cb1c8b95b3",
+    "course_sha256": "cd9f507ae2351cf463a4bee1bef1708cf13c1aa460d4e9950ccfd1cb1c8b95b3",
+    "adapted": false
+  },
+  {
+    "path": "isaacsimenvs/tasks/play/utils/object_size_distributions.py",
+    "source_commit_sha256": "abadce824623e00acc1be2dd2d5ecd9d10145b03148ac758080c02fa866266a5",
+    "course_sha256": "abadce824623e00acc1be2dd2d5ecd9d10145b03148ac758080c02fa866266a5",
+    "adapted": false
+  },
+  {
+    "path": "isaacsimenvs/tasks/play/utils/obs_utils.py",
+    "source_commit_sha256": "bb7fa980f16d643d5e7c137e0a159ac7bc20933d2934958a350ad26c72dd68a5",
+    "course_sha256": "bb7fa980f16d643d5e7c137e0a159ac7bc20933d2934958a350ad26c72dd68a5",
+    "adapted": false
+  },
+  {
+    "path": "isaacsimenvs/tasks/play/utils/reset_utils.py",
+    "source_commit_sha256": "3b845d20189e508a07de68b7396fc7823437259805349230901c4a5a1906515e",
+    "course_sha256": "3b845d20189e508a07de68b7396fc7823437259805349230901c4a5a1906515e",
+    "adapted": false
+  },
+  {
+    "path": "isaacsimenvs/tasks/play/utils/reward_utils.py",
+    "source_commit_sha256": "86a0a779bca7093a25a75ab646619a4cb88877005fd4718793e8411a9ca25e6d",
+    "course_sha256": "86a0a779bca7093a25a75ab646619a4cb88877005fd4718793e8411a9ca25e6d",
+    "adapted": false
+  },
+  {
+    "path": "isaacsimenvs/tasks/play/utils/scene_utils.py",
+    "source_commit_sha256": "1099fcdd5718415b1f9d59034c76945ec33f25c9152023b4d0f41c6061937d97",
+    "course_sha256": "1099fcdd5718415b1f9d59034c76945ec33f25c9152023b4d0f41c6061937d97",
+    "adapted": false
+  },
+  {
+    "path": "isaacsimenvs/tasks/play/utils/termination_utils.py",
+    "source_commit_sha256": "19f161e890f84f389856223be83550533e26e9ae2abb736ac840d71c10b62075",
+    "course_sha256": "19f161e890f84f389856223be83550533e26e9ae2abb736ac840d71c10b62075",
+    "adapted": false
+  },
+  {
+    "path": "isaacsimenvs/tasks/precise_assembly/__init__.py",
+    "source_commit_sha256": "02e54ebcc1cad223117ded1c6de33af55b0cba9f4e930db0828e5b59fe353ad3",
+    "course_sha256": "02e54ebcc1cad223117ded1c6de33af55b0cba9f4e930db0828e5b59fe353ad3",
+    "adapted": false
+  },
+  {
+    "path": "isaacsimenvs/tasks/precise_assembly/precise_assembly_env.py",
+    "source_commit_sha256": "8caa994eee2b95c7ac0b2286b85a01652778eadcab752586ffedd929b2cd76bb",
+    "course_sha256": "8caa994eee2b95c7ac0b2286b85a01652778eadcab752586ffedd929b2cd76bb",
+    "adapted": false
+  },
+  {
+    "path": "isaacsimenvs/tasks/precise_assembly/precise_assembly_env_cfg.py",
+    "source_commit_sha256": "32e48d2d1cb3295cff710a7101c1df1708663eb0f350c75f47b0cf5a3ac8a8c0",
+    "course_sha256": "32e48d2d1cb3295cff710a7101c1df1708663eb0f350c75f47b0cf5a3ac8a8c0",
+    "adapted": false
+  },
+  {
+    "path": "isaacsimenvs/tasks/precise_assembly/scene_utils.py",
+    "source_commit_sha256": "0ea81bea44eb050123470ea9ded3dfe11c3e2b3234bcdcc9057cb22512c83146",
+    "course_sha256": "0ea81bea44eb050123470ea9ded3dfe11c3e2b3234bcdcc9057cb22512c83146",
+    "adapted": false
+  },
+  {
+    "path": "isaacsimenvs/utils/__init__.py",
+    "source_commit_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "course_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "adapted": false
+  },
+  {
+    "path": "isaacsimenvs/utils/rlgames_utils.py",
+    "source_commit_sha256": "50602f25409f7ef9c43d9cd7734191795905db9123c9e17e0a69c0d6d7e28dad",
+    "course_sha256": "50602f25409f7ef9c43d9cd7734191795905db9123c9e17e0a69c0d6d7e28dad",
+    "adapted": false
+  },
+  {
+    "path": "tools/kit_resource_preflight.py",
+    "source_commit_sha256": "6e4d43d15608e61b843f6b50829f7cd174ac40b7472ab7198bf2a15cfd554238",
+    "course_sha256": "6e4d43d15608e61b843f6b50829f7cd174ac40b7472ab7198bf2a15cfd554238",
+    "adapted": false
+  },
+  {
+    "path": "tools/narrow_repair_audit.py",
+    "source_commit_sha256": "f899073790794d96ee3bc68e4617a09df46d9835707ef167ed690de61c177531",
+    "course_sha256": "f899073790794d96ee3bc68e4617a09df46d9835707ef167ed690de61c177531",
+    "adapted": false
+  },
+  {
+    "path": "tools/runtime.py",
+    "source_commit_sha256": "57c6d5bfa52f39d1ee42a31c1199799aa1414d0c6bd6a32e2bbff6e49541a975",
+    "course_sha256": "57c6d5bfa52f39d1ee42a31c1199799aa1414d0c6bd6a32e2bbff6e49541a975",
+    "adapted": false
+  },
+  {
+    "path": "tools/tight_batch_owner.py",
+    "source_commit_sha256": "39373a7d02ddf4c963cafff3667fcef612eada76f240127ba56bc3dd58a69329",
+    "course_sha256": "39373a7d02ddf4c963cafff3667fcef612eada76f240127ba56bc3dd58a69329",
+    "adapted": false
+  },
+  {
+    "path": "tools/tight_dagger.py",
+    "source_commit_sha256": "af2f28b9324ff55b304f6e564c41252bb328e4ccc27d0cd3138bc81c6ed43658",
+    "course_sha256": "af2f28b9324ff55b304f6e564c41252bb328e4ccc27d0cd3138bc81c6ed43658",
+    "adapted": false
+  },
+  {
+    "path": "tools/tight_diagnostics.py",
+    "source_commit_sha256": "848aca09b97a6f6a6484e6b7f3555015526fc6b435a5de6654bcf2b588ba9126",
+    "course_sha256": "848aca09b97a6f6a6484e6b7f3555015526fc6b435a5de6654bcf2b588ba9126",
+    "adapted": false
+  },
+  {
+    "path": "tools/tight_exposure_training.py",
+    "source_commit_sha256": "89a82a4f001ad18ce239db3c23e09050753f0a10d1cb659a31c5b6943d40b1d6",
+    "course_sha256": "89a82a4f001ad18ce239db3c23e09050753f0a10d1cb659a31c5b6943d40b1d6",
+    "adapted": false
+  },
+  {
+    "path": "tools/tight_finish.py",
+    "source_commit_sha256": "bd30ac9bb2441938ef8621e43f58401b52c111f15e74737a5d9ca53305c47eea",
+    "course_sha256": "bd30ac9bb2441938ef8621e43f58401b52c111f15e74737a5d9ca53305c47eea",
+    "adapted": false
+  },
+  {
+    "path": "tools/tight_fresh_backend.py",
+    "source_commit_sha256": "33b9d5b67dcc7818d68134731e2ddce6fb5bbb7bdc10e7bd68587e37f12e55e4",
+    "course_sha256": "33b9d5b67dcc7818d68134731e2ddce6fb5bbb7bdc10e7bd68587e37f12e55e4",
+    "adapted": false
+  },
+  {
+    "path": "tools/tight_fresh_batch_run.py",
+    "source_commit_sha256": "d0cdeb33c1a10796aaa5ac19b7455734803818d7d595c5324b6edf25ef761369",
+    "course_sha256": "d0cdeb33c1a10796aaa5ac19b7455734803818d7d595c5324b6edf25ef761369",
+    "adapted": false
+  },
+  {
+    "path": "tools/tight_fresh_collection_source.py",
+    "source_commit_sha256": "2a63de88fd572d2651bfc43f979e1a7d255ec710396585974b8a3873d343cb9e",
+    "course_sha256": "2a63de88fd572d2651bfc43f979e1a7d255ec710396585974b8a3873d343cb9e",
+    "adapted": false
+  },
+  {
+    "path": "tools/tight_fresh_contact_height_coverage.py",
+    "source_commit_sha256": "7aca3a1040acda8cf4efa66e7fd9e80f44bfc57405c66381d69387786869d1e6",
+    "course_sha256": "7aca3a1040acda8cf4efa66e7fd9e80f44bfc57405c66381d69387786869d1e6",
+    "adapted": false
+  },
+  {
+    "path": "tools/tight_fresh_eval_recovery.py",
+    "source_commit_sha256": "c5c09b9026c89b69228dee1f43e05f2e214d416c6a77f9171c75a97c4fe51f08",
+    "course_sha256": "c5c09b9026c89b69228dee1f43e05f2e214d416c6a77f9171c75a97c4fe51f08",
+    "adapted": false
+  },
+  {
+    "path": "tools/tight_fresh_expert_stability_coverage.py",
+    "source_commit_sha256": "e0efc8af01eaa675d47af8ea3c043702ba2393977b016241a2137a45e2234536",
+    "course_sha256": "e0efc8af01eaa675d47af8ea3c043702ba2393977b016241a2137a45e2234536",
+    "adapted": false
+  },
+  {
+    "path": "tools/tight_fresh_followup_session.py",
+    "source_commit_sha256": "4efc15716c0bdf21768bad9b1e3e77118ea3ba785bdc113deafc6e1ce8231cf6",
+    "course_sha256": "4efc15716c0bdf21768bad9b1e3e77118ea3ba785bdc113deafc6e1ce8231cf6",
+    "adapted": false
+  },
+  {
+    "path": "tools/tight_fresh_learning_report.py",
+    "source_commit_sha256": "1c9a22066dc5e064e11e37a5d2a60234f12c00e5477b96d923398ece53631d88",
+    "course_sha256": "1c9a22066dc5e064e11e37a5d2a60234f12c00e5477b96d923398ece53631d88",
+    "adapted": false
+  },
+  {
+    "path": "tools/tight_fresh_phases.py",
+    "source_commit_sha256": "0cda7628593954cac85adf528a68085fe44fcc5e331e0469455cf3cd8f666eaf",
+    "course_sha256": "0cda7628593954cac85adf528a68085fe44fcc5e331e0469455cf3cd8f666eaf",
+    "adapted": false
+  },
+  {
+    "path": "tools/tight_fresh_report.py",
+    "source_commit_sha256": "7cecaef9d59d78d147400c3ef7051fffc52044374625cd449310db112801f0cc",
+    "course_sha256": "7cecaef9d59d78d147400c3ef7051fffc52044374625cd449310db112801f0cc",
+    "adapted": false
+  },
+  {
+    "path": "tools/tight_fresh_rollouts.py",
+    "source_commit_sha256": "33b7ce5bff335f3ae96de0b9e71c7a1f5fe9e841e40f7be16061397311d7b2c3",
+    "course_sha256": "33b7ce5bff335f3ae96de0b9e71c7a1f5fe9e841e40f7be16061397311d7b2c3",
+    "adapted": false
+  },
+  {
+    "path": "tools/tight_fresh_round_compare.py",
+    "source_commit_sha256": "bde768ca376858fea01ab0cc952bd85cc2c0a516c060b9c08390fa6c4decc8bb",
+    "course_sha256": "bde768ca376858fea01ab0cc952bd85cc2c0a516c060b9c08390fa6c4decc8bb",
+    "adapted": false
+  },
+  {
+    "path": "tools/tight_fresh_stage_audit.py",
+    "source_commit_sha256": "04115a4e2d5d2d772b411a0166d947f9b4a0d4aa7fb49ec9c5057211e3822a98",
+    "course_sha256": "04115a4e2d5d2d772b411a0166d947f9b4a0d4aa7fb49ec9c5057211e3822a98",
+    "adapted": false
+  },
+  {
+    "path": "tools/tight_fresh_stage_takeover.py",
+    "source_commit_sha256": "f9b5c5ba2ec4bba8888d8adea4df5952dbb52ece49ab08629cc4403a8a986ced",
+    "course_sha256": "f9b5c5ba2ec4bba8888d8adea4df5952dbb52ece49ab08629cc4403a8a986ced",
+    "adapted": false
+  },
+  {
+    "path": "tools/tight_fresh_takeover_pose_audit.py",
+    "source_commit_sha256": "19ce41c9af6c13b0c04a3e887d720221cc73a4889fcb5c85439785b29597f4ff",
+    "course_sha256": "19ce41c9af6c13b0c04a3e887d720221cc73a4889fcb5c85439785b29597f4ff",
+    "adapted": false
+  },
+  {
+    "path": "tools/tight_fresh_train.py",
+    "source_commit_sha256": "eb8cd2763d4ad767f15c5a3bfa34f762ac9e6562fad5c09989bafdab88903504",
+    "course_sha256": "d564c1bcb29b1122755836da6b553afff0663aae2f6a54c541564e30a7445771",
+    "adapted": true
+  },
+  {
+    "path": "tools/tight_fresh_visual_closeout.py",
+    "source_commit_sha256": "4374e4f3e569aa54c211a1293d57799894750765e3a2ec7a89b2ad6a38ae7b1e",
+    "course_sha256": "4374e4f3e569aa54c211a1293d57799894750765e3a2ec7a89b2ad6a38ae7b1e",
+    "adapted": false
+  },
+  {
+    "path": "tools/tight_frozen_frontend.py",
+    "source_commit_sha256": "1647c3e4d168ccaacbfc3015a6d751069477a0ab5e27f548e0d7c6562e9f8695",
+    "course_sha256": "1647c3e4d168ccaacbfc3015a6d751069477a0ab5e27f548e0d7c6562e9f8695",
+    "adapted": false
+  },
+  {
+    "path": "tools/tight_state.py",
+    "source_commit_sha256": "1c8703eb1fad6b803170f15224f9aba4cba27d56b0745811de1c73dc48b101c2",
+    "course_sha256": "1c8703eb1fad6b803170f15224f9aba4cba27d56b0745811de1c73dc48b101c2",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/__init__.py",
+    "source_commit_sha256": "5a735e709bbc20eb3cfb1d67c6a4e04fb861bdf1ca689dece1790ee18b6edadc",
+    "course_sha256": "5a735e709bbc20eb3cfb1d67c6a4e04fb861bdf1ca689dece1790ee18b6edadc",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/action_history.py",
+    "source_commit_sha256": "a1436401bbf86e7a90a72e9c3b163313e44e43d1c436910ac81bddac44be726b",
+    "course_sha256": "a1436401bbf86e7a90a72e9c3b163313e44e43d1c436910ac81bddac44be726b",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/adaptive_takeover.py",
+    "source_commit_sha256": "7f5ec2dc69ffd651efe1bbf0fa98e949ed48763b4a9d49469acd56fb5ee2bd8e",
+    "course_sha256": "7f5ec2dc69ffd651efe1bbf0fa98e949ed48763b4a9d49469acd56fb5ee2bd8e",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/anchor_continue.py",
+    "source_commit_sha256": "3f7410bea98f4e895b58f36d01f9a2624c6a5391e3baf4dd231edcdaa08cf447",
+    "course_sha256": "3f7410bea98f4e895b58f36d01f9a2624c6a5391e3baf4dd231edcdaa08cf447",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/anchor_sampling.py",
+    "source_commit_sha256": "aa7cf1c6b3b09d7864d1e95722b4fa48b0591def43613f0361f5497892b0af44",
+    "course_sha256": "aa7cf1c6b3b09d7864d1e95722b4fa48b0591def43613f0361f5497892b0af44",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/async_recording.py",
+    "source_commit_sha256": "5f17607535e7823f68571e8d3a26360345cce687715d94d831f896b0ad3cf205",
+    "course_sha256": "5f17607535e7823f68571e8d3a26360345cce687715d94d831f896b0ad3cf205",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/batch_recording.py",
+    "source_commit_sha256": "3ec67aeaaf2e7649b3e4b43de2f6b4bdfaffc6acc43c748b8749f946d6b053ce",
+    "course_sha256": "3ec67aeaaf2e7649b3e4b43de2f6b4bdfaffc6acc43c748b8749f946d6b053ce",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/batched_controller.py",
+    "source_commit_sha256": "ce4998a7803f30d6cd4c8d04539427dc4bfc73fa0fd82734c8dec6b409db9b12",
+    "course_sha256": "ce4998a7803f30d6cd4c8d04539427dc4bfc73fa0fd82734c8dec6b409db9b12",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/batched_position_bridge.py",
+    "source_commit_sha256": "ec8ce80425b9caaaf9f4ab3b6d53e39114b3573e397990d4de9c7cee0bde224f",
+    "course_sha256": "ec8ce80425b9caaaf9f4ab3b6d53e39114b3573e397990d4de9c7cee0bde224f",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/batched_rollout.py",
+    "source_commit_sha256": "7f281977322501ee3a3a58cfc219cf3f6368614a6894561df08bc1ca98d269f4",
+    "course_sha256": "7f281977322501ee3a3a58cfc219cf3f6368614a6894561df08bc1ca98d269f4",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/bounded_extension.py",
+    "source_commit_sha256": "fd80bff693177e16363a795c9af5b00a073f736713d125b3e4fd5699c77079fb",
+    "course_sha256": "fd80bff693177e16363a795c9af5b00a073f736713d125b3e4fd5699c77079fb",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/camera_calibration.py",
+    "source_commit_sha256": "dc12c6b7a0de0f33ff0a79269b871196d91f9a5245abef62213fcdae52770a57",
+    "course_sha256": "dc12c6b7a0de0f33ff0a79269b871196d91f9a5245abef62213fcdae52770a57",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/camera_rigs.py",
+    "source_commit_sha256": "36c8b7264cd04bf3aaa7fbe2ebe5d668e6afe863562850d79d81eb2aff3c4b2c",
+    "course_sha256": "36c8b7264cd04bf3aaa7fbe2ebe5d668e6afe863562850d79d81eb2aff3c4b2c",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/camera_validity.py",
+    "source_commit_sha256": "7209161f2ed006b8be00e36d86ee58edab1efdd7f3033ba2f7ce089d553aca3d",
+    "course_sha256": "7209161f2ed006b8be00e36d86ee58edab1efdd7f3033ba2f7ce089d553aca3d",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/checkpointing.py",
+    "source_commit_sha256": "afe7277f5e63057b98976f39dc6ef740d2737d1fc6d456336f995e5f6c5150b5",
+    "course_sha256": "afe7277f5e63057b98976f39dc6ef740d2737d1fc6d456336f995e5f6c5150b5",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/compact.py",
+    "source_commit_sha256": "4a7335955bacae8291b7d454c4e034710a13755787ef40e4bbc9bc3b60cd13ba",
+    "course_sha256": "4a7335955bacae8291b7d454c4e034710a13755787ef40e4bbc9bc3b60cd13ba",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/continuous_vision.py",
+    "source_commit_sha256": "7430464d0cb8a9f0d02aabaedb63a9d508bda221d04a0bac7935c5328342c920",
+    "course_sha256": "7430464d0cb8a9f0d02aabaedb63a9d508bda221d04a0bac7935c5328342c920",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/current_render.py",
+    "source_commit_sha256": "dc1c861275873899d037b057d3cc0da53325a4a1867f7c484ea31d3cca2be22a",
+    "course_sha256": "dc1c861275873899d037b057d3cc0da53325a4a1867f7c484ea31d3cca2be22a",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/deviation_takeover.py",
+    "source_commit_sha256": "b5a31dd4ec0e41bba1fc42a5dc40c42a6f0209644ed36ab5e9a42ab6125e6fe6",
+    "course_sha256": "b5a31dd4ec0e41bba1fc42a5dc40c42a6f0209644ed36ab5e9a42ab6125e6fe6",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/dp_objectives.py",
+    "source_commit_sha256": "7dcf7f2ba9147cd2d400a2ecaa9426805761e5eecf860c93282d50dfb43becc6",
+    "course_sha256": "7dcf7f2ba9147cd2d400a2ecaa9426805761e5eecf860c93282d50dfb43becc6",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/effective_exposure.py",
+    "source_commit_sha256": "9007f15c381cd0a53ffb2b47dfc7d89ac27ebfdf782d7d87a2a5c5d8c151af27",
+    "course_sha256": "9007f15c381cd0a53ffb2b47dfc7d89ac27ebfdf782d7d87a2a5c5d8c151af27",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/entry_exposure.py",
+    "source_commit_sha256": "3befbe5ddfab3e19f57b44caceb8baf2eb08969a652d540cc648b949fa61f708",
+    "course_sha256": "3befbe5ddfab3e19f57b44caceb8baf2eb08969a652d540cc648b949fa61f708",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/environment_rng.py",
+    "source_commit_sha256": "18878c7ccde8a403a1eb133ee266f2a3514f1553b9ea2dad768781e0ef378ff1",
+    "course_sha256": "18878c7ccde8a403a1eb133ee266f2a3514f1553b9ea2dad768781e0ef378ff1",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/episode_io.py",
+    "source_commit_sha256": "62e7d572c12ea9f685c93d51a501db24a99c41dab332be5995a0a907bc8ab5fb",
+    "course_sha256": "62e7d572c12ea9f685c93d51a501db24a99c41dab332be5995a0a907bc8ab5fb",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/execution_backend.py",
+    "source_commit_sha256": "1f700710df163d58843dcd24dc5f63eaf230b1be65c045215bde5a6519029201",
+    "course_sha256": "1f700710df163d58843dcd24dc5f63eaf230b1be65c045215bde5a6519029201",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/execution_learning.py",
+    "source_commit_sha256": "23d1379e5db3e203dd8de37357b48dcebcbe1fa5a270c278e304cafa1bfc2f59",
+    "course_sha256": "23d1379e5db3e203dd8de37357b48dcebcbe1fa5a270c278e304cafa1bfc2f59",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/expert.py",
+    "source_commit_sha256": "524f67297d76094de1c3df98171d28748f27892290f5b2c2bc38f10c8e670e09",
+    "course_sha256": "524f67297d76094de1c3df98171d28748f27892290f5b2c2bc38f10c8e670e09",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/expert_speed.py",
+    "source_commit_sha256": "0431086bac241778ebbc0cad33c254e821c45f0e89f16e89001530f6596de2c6",
+    "course_sha256": "0431086bac241778ebbc0cad33c254e821c45f0e89f16e89001530f6596de2c6",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/first_plan_forensics.py",
+    "source_commit_sha256": "86d7aa39c146323d8d87a8c4d61b797675b0662d85ec9215b34f8a2e1473800c",
+    "course_sha256": "86d7aa39c146323d8d87a8c4d61b797675b0662d85ec9215b34f8a2e1473800c",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/fresh_contracts.py",
+    "source_commit_sha256": "384d63cb2ee486b0a88b4186b0f3c728bbff7167382d91fee520d623f2f008be",
+    "course_sha256": "384d63cb2ee486b0a88b4186b0f3c728bbff7167382d91fee520d623f2f008be",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/fresh_recovery.py",
+    "source_commit_sha256": "9347547f3ffa53639c8de2facd4c5b62474f635b82598b07eb5706b6f2ceb8ef",
+    "course_sha256": "9347547f3ffa53639c8de2facd4c5b62474f635b82598b07eb5706b6f2ceb8ef",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/fresh_visit_sampling.py",
+    "source_commit_sha256": "e1becff8e2bd4564d5bbd67a52f734bc127e629e41886963dece77b1ca9eed37",
+    "course_sha256": "e1becff8e2bd4564d5bbd67a52f734bc127e629e41886963dece77b1ca9eed37",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/frozen_payload_audit.py",
+    "source_commit_sha256": "79916e5a3288691e128188cb9b126c58b3063805c8bee4f68c9348271f909689",
+    "course_sha256": "79916e5a3288691e128188cb9b126c58b3063805c8bee4f68c9348271f909689",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/frozen_visual_io.py",
+    "source_commit_sha256": "4a9d1fadeee3b24eeff9761a6fe7ee5acbd005100e6037a27224e2c097d77ee0",
+    "course_sha256": "4a9d1fadeee3b24eeff9761a6fe7ee5acbd005100e6037a27224e2c097d77ee0",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/geometry_sampling.py",
+    "source_commit_sha256": "ed606917662aad5267facaf3f0329f56dfb917945c0987b495397bb1cc8d089d",
+    "course_sha256": "ed606917662aad5267facaf3f0329f56dfb917945c0987b495397bb1cc8d089d",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/gpu_batch_controller.py",
+    "source_commit_sha256": "f692bdc994388660b4521b138113360c79dcc1511f25b46e05ee1f1cf7dd3f41",
+    "course_sha256": "f692bdc994388660b4521b138113360c79dcc1511f25b46e05ee1f1cf7dd3f41",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/grasp_curriculum.py",
+    "source_commit_sha256": "8999b92e0191a6ba5baed82cb13371abcc96604aa743824494bc6d6dcd6466c1",
+    "course_sha256": "8999b92e0191a6ba5baed82cb13371abcc96604aa743824494bc6d6dcd6466c1",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/inactive_render_products.py",
+    "source_commit_sha256": "83b993908047383ce90a90c4cda47fced3a66ce14e1359bf67c747bd81a8582d",
+    "course_sha256": "83b993908047383ce90a90c4cda47fced3a66ce14e1359bf67c747bd81a8582d",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/initial_geometry.py",
+    "source_commit_sha256": "c86894fd02f72329eef9fe1be8d4a49d794e06fb7ec85cc356efb3c0a8d76c48",
+    "course_sha256": "c86894fd02f72329eef9fe1be8d4a49d794e06fb7ec85cc356efb3c0a8d76c48",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/kinematics.py",
+    "source_commit_sha256": "b94edf4d4893879f348e25a36e03fc4e12080dc7bdb600078fdbf484a9d55aa9",
+    "course_sha256": "b94edf4d4893879f348e25a36e03fc4e12080dc7bdb600078fdbf484a9d55aa9",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/latest_takeover_sampling.py",
+    "source_commit_sha256": "90ef402da65709d2880f28a22f9d9a9962ac03a503c3060f348bbbc2c0f8aec9",
+    "course_sha256": "90ef402da65709d2880f28a22f9d9a9962ac03a503c3060f348bbbc2c0f8aec9",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/live_collision.py",
+    "source_commit_sha256": "77f68235a5917a40c8b5889c16701b310146d537289f65dcb2f34677df865cda",
+    "course_sha256": "77f68235a5917a40c8b5889c16701b310146d537289f65dcb2f34677df865cda",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/models/__init__.py",
+    "source_commit_sha256": "6eef10f160f5a03ea1262f4f1f55bf0ed62b75841130fb224760e2797e44e396",
+    "course_sha256": "6eef10f160f5a03ea1262f4f1f55bf0ed62b75841130fb224760e2797e44e396",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/models/native_dp.py",
+    "source_commit_sha256": "f41029d3de6468cf2f2474e84c517d169d6d70d2933ff94ce40e2a1389027923",
+    "course_sha256": "f41029d3de6468cf2f2474e84c517d169d6d70d2933ff94ce40e2a1389027923",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/models/native_vision.py",
+    "source_commit_sha256": "686174d14612364bc74a9319c6741cd5816bafbcf2893b0356b727688280ae7e",
+    "course_sha256": "1f8c0532c7e87078c7de1f4603b79abb49552e1207f4def78d5cdfad8461d28b",
+    "adapted": true
+  },
+  {
+    "path": "visuotactile/models/vendor/__init__.py",
+    "source_commit_sha256": "96223a2f2664daa2bc2924314ddca976b926e595c778f46d9c291391a14811c4",
+    "course_sha256": "96223a2f2664daa2bc2924314ddca976b926e595c778f46d9c291391a14811c4",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/models/vendor/conditional_unet1d.py",
+    "source_commit_sha256": "7cef53c66b731fbc4fdd796ad6cc313b4ff9556d2e3ebe26d88462a01a07da2c",
+    "course_sha256": "7cef53c66b731fbc4fdd796ad6cc313b4ff9556d2e3ebe26d88462a01a07da2c",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/models/vendor/conv1d_components.py",
+    "source_commit_sha256": "ea2aa10e297cf253bc1a1919ba47fe6ae32049b5eaaab292ed9cc145d8d2adc0",
+    "course_sha256": "ea2aa10e297cf253bc1a1919ba47fe6ae32049b5eaaab292ed9cc145d8d2adc0",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/models/vendor/ema_model.py",
+    "source_commit_sha256": "c6ffb2bd1bf9428fa518596d10cd587d64d08825f8a568cf9ebbf8372767fccf",
+    "course_sha256": "c6ffb2bd1bf9428fa518596d10cd587d64d08825f8a568cf9ebbf8372767fccf",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/models/vendor/positional_embedding.py",
+    "source_commit_sha256": "2266c75ecc9c9ac8ca126839d39a7bafbdd7af8800d6de903f66815e64cc366c",
+    "course_sha256": "2266c75ecc9c9ac8ca126839d39a7bafbdd7af8800d6de903f66815e64cc366c",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/narrow_data.py",
+    "source_commit_sha256": "b2efa032f23596ca57e875a7e68e6a683500b0eb612b85a2312e20f66455032a",
+    "course_sha256": "b2efa032f23596ca57e875a7e68e6a683500b0eb612b85a2312e20f66455032a",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/narrow_decision.py",
+    "source_commit_sha256": "0d3bf737912cc4084cb8ed476c826601b6a8430a8633370805e0beecfae48add",
+    "course_sha256": "0d3bf737912cc4084cb8ed476c826601b6a8430a8633370805e0beecfae48add",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/native_controller.py",
+    "source_commit_sha256": "5e3ce18f7e57d5088b65bcf74d10e7b7eadf0274c6454bd32cd62926028c938c",
+    "course_sha256": "5e3ce18f7e57d5088b65bcf74d10e7b7eadf0274c6454bd32cd62926028c938c",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/native_data.py",
+    "source_commit_sha256": "00d0e07b4d9a2897c1caee9d4118f4eeffb4fa3fe24d93eff5de71203a6c343b",
+    "course_sha256": "00d0e07b4d9a2897c1caee9d4118f4eeffb4fa3fe24d93eff5de71203a6c343b",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/native_evaluation.py",
+    "source_commit_sha256": "72aedd7c468cb6e85b30b5b833884f809fe2b73b644d80391e5d3a6db0d7f295",
+    "course_sha256": "949e66c7cbb16cef79709336c2729a06a9d2c8eada315f2d56c89e6b691d73e8",
+    "adapted": true
+  },
+  {
+    "path": "visuotactile/observations.py",
+    "source_commit_sha256": "459ccc55a9f4af27110ccc442759cce33e10e639f5ef7bebae036b1d34d88f23",
+    "course_sha256": "459ccc55a9f4af27110ccc442759cce33e10e639f5ef7bebae036b1d34d88f23",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/offline_planning.py",
+    "source_commit_sha256": "09733406b9ab65e00350093084312ccd9fe518a89a5723a06fd0ece371c2fb33",
+    "course_sha256": "09733406b9ab65e00350093084312ccd9fe518a89a5723a06fd0ece371c2fb33",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/paired_curve_diagnostics.py",
+    "source_commit_sha256": null,
+    "course_sha256": "10c76aa0fe390265a06064cc3e86f0b8f06ce4712e8f7e255bef3aff632065ef",
+    "adapted": true
+  },
+  {
+    "path": "visuotactile/paired_episode_io.py",
+    "source_commit_sha256": "525c8800322abf2daab0d6a55567facde3833e80757e05f8a8f4ef0c10a27c9b",
+    "course_sha256": "525c8800322abf2daab0d6a55567facde3833e80757e05f8a8f4ef0c10a27c9b",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/paired_training_decks.py",
+    "source_commit_sha256": null,
+    "course_sha256": "b8b84a638439d9dff3e9b6b8dace3f760c33a849dbe376c61473e40adc61cd5a",
+    "adapted": true
+  },
+  {
+    "path": "visuotactile/phase_takeover.py",
+    "source_commit_sha256": "53cd2439a1dccbc694ed2af71aafd5f8b087f4883aeef4c467eb95f2338c6d2f",
+    "course_sha256": "53cd2439a1dccbc694ed2af71aafd5f8b087f4883aeef4c467eb95f2338c6d2f",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/position_control.py",
+    "source_commit_sha256": "f38d5661b2e6ec79e4992795a7786ea13c1880ff5a72dcd02e681f67e97b098e",
+    "course_sha256": "f38d5661b2e6ec79e4992795a7786ea13c1880ff5a72dcd02e681f67e97b098e",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/precision.py",
+    "source_commit_sha256": "0416b5b20923d59ceccb638e2c02d2dc110d920bf08c0ab57f35b59a030e1b45",
+    "course_sha256": "0416b5b20923d59ceccb638e2c02d2dc110d920bf08c0ab57f35b59a030e1b45",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/queued_rollout.py",
+    "source_commit_sha256": "fee72020f4b00784dab7658f9abbd3ade81d3f2f48f8c5514ba04b846c82ad8b",
+    "course_sha256": "fee72020f4b00784dab7658f9abbd3ade81d3f2f48f8c5514ba04b846c82ad8b",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/rear_episode_sampling.py",
+    "source_commit_sha256": "7a331e06a3dbee2be541d2f18024e12f0f81f4d2999b38991e4b53747c4a707c",
+    "course_sha256": "7a331e06a3dbee2be541d2f18024e12f0f81f4d2999b38991e4b53747c4a707c",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/recording.py",
+    "source_commit_sha256": "67b1fbffc2cdca80141b7d77b95b16f9c93345972bbdea13ae44c3a3acc175c1",
+    "course_sha256": "67b1fbffc2cdca80141b7d77b95b16f9c93345972bbdea13ae44c3a3acc175c1",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/residual_output.py",
+    "source_commit_sha256": "e58bde415cd9495ae0a858e3a36d02737281911baa6e57a880182895602b9dfd",
+    "course_sha256": "e58bde415cd9495ae0a858e3a36d02737281911baa6e57a880182895602b9dfd",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/residual_tick_window.py",
+    "source_commit_sha256": "7529d91e593975852f522179e9b4d91d13c4a4779682e6ccfa28b9e6789eea77",
+    "course_sha256": "7529d91e593975852f522179e9b4d91d13c4a4779682e6ccfa28b9e6789eea77",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/sampler_audit.py",
+    "source_commit_sha256": "3226ea5297ab3278260ea536b521adb95a9c558f487a3e9a985ea8f5984822e3",
+    "course_sha256": "3226ea5297ab3278260ea536b521adb95a9c558f487a3e9a985ea8f5984822e3",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/sensor_rgb.py",
+    "source_commit_sha256": "f2bd2257e2b04fcb8f9c4c2016e531a4414bfeb924e703b0f887dcd6f3a958ac",
+    "course_sha256": "f2bd2257e2b04fcb8f9c4c2016e531a4414bfeb924e703b0f887dcd6f3a958ac",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/sim/__init__.py",
+    "source_commit_sha256": "63cdecdcc2893131dd45472ae44703d761402d07f95a73fc2f695b89293b571e",
+    "course_sha256": "63cdecdcc2893131dd45472ae44703d761402d07f95a73fc2f695b89293b571e",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/sim/environment.py",
+    "source_commit_sha256": "5b24270a70c909da22840d2bbd19010b161432edc3e4d6321f963cca812e2f27",
+    "course_sha256": "5b24270a70c909da22840d2bbd19010b161432edc3e4d6321f963cca812e2f27",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/sim/expert_speed_environment.py",
+    "source_commit_sha256": "3de63bfd85f6f187b49dffe3943bc0c4e5062f983fbda564413064f2e323febf",
+    "course_sha256": "3de63bfd85f6f187b49dffe3943bc0c4e5062f983fbda564413064f2e323febf",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/sim/native_diagnostics.py",
+    "source_commit_sha256": "61d80fe3edb318d493619592b0f41d8118943bf8686f78a819e35a0e0b112022",
+    "course_sha256": "61d80fe3edb318d493619592b0f41d8118943bf8686f78a819e35a0e0b112022",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/sim/replay_environment.py",
+    "source_commit_sha256": "047578eaf72c64ca417ae1cb951fbec49d4815685cafb3f91c7e8a092951176e",
+    "course_sha256": "047578eaf72c64ca417ae1cb951fbec49d4815685cafb3f91c7e8a092951176e",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/startup_diagnostics.py",
+    "source_commit_sha256": "666e9aab04b2bed463a1ba6af4d4e2468cb4141fa0957502fb7082652ec5bddc",
+    "course_sha256": "666e9aab04b2bed463a1ba6af4d4e2468cb4141fa0957502fb7082652ec5bddc",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/state_benchmark.py",
+    "source_commit_sha256": "57b90473e7d6bac6dc0318b47d6bb08296530a66fc0cd7d41a0a34f273863db3",
+    "course_sha256": "57b90473e7d6bac6dc0318b47d6bb08296530a66fc0cd7d41a0a34f273863db3",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/state_history.py",
+    "source_commit_sha256": "a6d587f0ccb5ad424f41a355476584624a93beaf0a0b4c9c52a2d7c2d499bc49",
+    "course_sha256": "a6d587f0ccb5ad424f41a355476584624a93beaf0a0b4c9c52a2d7c2d499bc49",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/state_image_loss.py",
+    "source_commit_sha256": "fb74ebb2b7256561ae750c823488aa13bad3e836f0644503c653893ae05e24c1",
+    "course_sha256": "fb74ebb2b7256561ae750c823488aa13bad3e836f0644503c653893ae05e24c1",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/state_image_offline.py",
+    "source_commit_sha256": "e599a354f5c77251f1fb4d7ab166872657e0a608e307d4d88cd46bca8431eca3",
+    "course_sha256": "e599a354f5c77251f1fb4d7ab166872657e0a608e307d4d88cd46bca8431eca3",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/state_motion.py",
+    "source_commit_sha256": "dad48e2ff477513dbd28a8303d4ddf52c2073119688ee0edf826350b90a1e02f",
+    "course_sha256": "dad48e2ff477513dbd28a8303d4ddf52c2073119688ee0edf826350b90a1e02f",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/state_resources.py",
+    "source_commit_sha256": "a88840c5137ec4efc19f2615b33297def9d5a1bcbbc09360934840951cd88f74",
+    "course_sha256": "866dc6024d081042981b75e49ba6944707f974b19b3b29a713c7e481708b5e54",
+    "adapted": true
+  },
+  {
+    "path": "visuotactile/takeover_trigger.py",
+    "source_commit_sha256": "170ff6ec3e375a08398483d28b07447a63f0da2cba1e40523c4776008cca99e2",
+    "course_sha256": "170ff6ec3e375a08398483d28b07447a63f0da2cba1e40523c4776008cca99e2",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/target_windows.py",
+    "source_commit_sha256": "77f5ebf2174d6dec9d17e0dfbd99f932309d193fbd1397511aa0dc4a0d010374",
+    "course_sha256": "77f5ebf2174d6dec9d17e0dfbd99f932309d193fbd1397511aa0dc4a0d010374",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/tight_gate.py",
+    "source_commit_sha256": "3ed89287ba6e853897769874e4daf28fdfa3b2b5ceb28fb99bd022245c7d5c3b",
+    "course_sha256": "3ed89287ba6e853897769874e4daf28fdfa3b2b5ceb28fb99bd022245c7d5c3b",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/tiled_camera_pose_sync.py",
+    "source_commit_sha256": "5c67fb2a839cc364d8e0dae45d8cd1665205c78627ae6ac0bce485b104f152f1",
+    "course_sha256": "5c67fb2a839cc364d8e0dae45d8cd1665205c78627ae6ac0bce485b104f152f1",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/training_expansion.py",
+    "source_commit_sha256": "ca937db28d9b03bd4b91b762255382ca71df0bfd67121604127c3a1e17c4eaf9",
+    "course_sha256": "ca937db28d9b03bd4b91b762255382ca71df0bfd67121604127c3a1e17c4eaf9",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/training_receipts.py",
+    "source_commit_sha256": "5b82c6107bd822682ac1168ebd7fee65bedf2ad5653b799676fc5d8bbac23dbc",
+    "course_sha256": "5b82c6107bd822682ac1168ebd7fee65bedf2ad5653b799676fc5d8bbac23dbc",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/training_resources.py",
+    "source_commit_sha256": "cc6612e5b485bc9f4d361742bc88331a31a2c6504cf807b5fe3a810f98780999",
+    "course_sha256": "cc6612e5b485bc9f4d361742bc88331a31a2c6504cf807b5fe3a810f98780999",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/trajectory_batch.py",
+    "source_commit_sha256": "8e0031d929c3976b222101b788f99f5c3c86d3d51569ea9334bff6bdbe1d2d14",
+    "course_sha256": "8e0031d929c3976b222101b788f99f5c3c86d3d51569ea9334bff6bdbe1d2d14",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/trajectory_prefetch.py",
+    "source_commit_sha256": "12cbf6508193e5c67bf4b1809281dbfec4888f96e3985dcc5d2cd36471ba6b86",
+    "course_sha256": "12cbf6508193e5c67bf4b1809281dbfec4888f96e3985dcc5d2cd36471ba6b86",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/trajectory_training.py",
+    "source_commit_sha256": "e64be1fc35d24011f4dbe08b66d3c8a94ec6fc80cf60a1201bb554b447d3f5f8",
+    "course_sha256": "e64be1fc35d24011f4dbe08b66d3c8a94ec6fc80cf60a1201bb554b447d3f5f8",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/vector_position_bridge.py",
+    "source_commit_sha256": "46beafe983831d5ca75242e1d58fbca508e36f746e1d40811f6afd8b9c1ff2d5",
+    "course_sha256": "46beafe983831d5ca75242e1d58fbca508e36f746e1d40811f6afd8b9c1ff2d5",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/video.py",
+    "source_commit_sha256": "4480e2d5a1a147fc56a19490207e62f802f732836904f5fded4596cb4d8e88ba",
+    "course_sha256": "4480e2d5a1a147fc56a19490207e62f802f732836904f5fded4596cb4d8e88ba",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/visual_arithmetic.py",
+    "source_commit_sha256": "be8e94d8af0c9a1bf0c3b4590b7c7b39cf1528b528659e4eae617931d58ef561",
+    "course_sha256": "be8e94d8af0c9a1bf0c3b4590b7c7b39cf1528b528659e4eae617931d58ef561",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/visual_aux_training.py",
+    "source_commit_sha256": "521f2e8cd1ec9c3806ac100c881e12c9610e5aa441a8439b12ba9498e57f42e1",
+    "course_sha256": "521f2e8cd1ec9c3806ac100c881e12c9610e5aa441a8439b12ba9498e57f42e1",
+    "adapted": false
+  },
+  {
+    "path": "visuotactile/visual_pose_aux.py",
+    "source_commit_sha256": "c28e9aadbb904d3896bbefec32e3a78e12162b4040014bd323737ca74ee60789",
+    "course_sha256": "c28e9aadbb904d3896bbefec32e3a78e12162b4040014bd323737ca74ee60789",
+    "adapted": false
+  }
+]

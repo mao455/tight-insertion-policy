@@ -191,9 +191,9 @@ def fresh_objective(root,role,data,records,*,geometry_sampling_profile=None):
     objective.weights=dict(position=.3342396121814294,rotation=.029946394754032265)
     geometry=None;proof=None
     if role=='A':
-        base=Path('outputs/visuotactile/run')
-        acceptance=base/'tight_transformer_20261110_02/geometry_acceptance.json'
-        live=base/'tight_transformer_20261110_01/physics_gate_meshfix/geometry_live.json'
+        from course.environment import ROOT
+        acceptance=ROOT/'resources/training/templates/geometry_acceptance.json'
+        live=ROOT/'resources/training/templates/geometry_live.json'
         a=read(acceptance);inventory=read(live)['inventory']
         objective.enable_hand_geometry(inventory,a,loss_kind='hand_surface_soft_hinge_v1',penetration_tolerance_m=.001,contact_tolerance_m=.002)
         objective.weights['hand_geometry']=a['hand_geometry_weight']

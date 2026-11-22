@@ -41,5 +41,11 @@
     "tight_paired_dagger_20261122_01": "Parent reconstruction training active at packaging audit; no completed comparable frozen results found yet. Recheck before publication."
   },
   "demo_seed": 28853000,
-  "demo_seed_rule": "First fixed seed in a separate new range, chosen before GUI execution; no success-seeking retries. GUI acceptance rollout is not included in frozen24 rate."
+  "demo_seed_rule": "First fixed seed in a separate new range, chosen before GUI execution; no success-seeking retries. GUI acceptance rollout is not included in frozen24 rate.",
+  "gui_capacity_adaptation": {
+    "reason": "Single-environment native GPU buffers originally reserve memory for a very large batch; failed allocation with independent active research trainer.",
+    "changed": "Capacity allocations only: found/lost pairs 2^18; total pairs 2^20; contacts/patches 2^18; collision stack 2^26.",
+    "preserved": "Native task, assets, solver, contact parameters, 120/60/5Hz, sensor inputs, strict evaluator. Overflow invalidates the run.",
+    "gui_acceptance_not_new_rate": true
+  }
 }

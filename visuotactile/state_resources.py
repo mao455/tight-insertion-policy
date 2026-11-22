@@ -187,6 +187,9 @@ def policy(row, now):
 
 def lease_for(root, deadline=None):
     session = json.loads((Path(root)/'session.json').read_text())
+    if session.get('course_runtime'):
+        from course.resources import CourseLease
+        return CourseLease(root,deadline)
     if session.get('resource_policy') == 'full_gpu_v1':
         return FullLease(root, deadline=deadline)
     if session.get('resource_policy') == 'bounded_mean_v1':

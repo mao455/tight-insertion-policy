@@ -131,8 +131,10 @@ def main():
         raise RuntimeError('Native evaluator did not terminate within its original finite bound')
     if args.keep_open:
         while app.is_running(): app.update()
-    env.close()
-    app.close()
+    # Isaac Sim 5.1 can hang while tearing down CUDA render/PhysX contexts.
+    # The complete native terminal and trace are durable before process exit.
+    import sys
+    sys.stdout.flush();sys.stderr.flush();os._exit(0)
 
 
 if __name__=='__main__':

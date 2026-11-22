@@ -1,0 +1,368 @@
+{
+  "repository": "mao455/tight-insertion-policy",
+  "release": "resources-v1",
+  "assets": [
+    {
+      "file": "demo-A_130_50.tar.gz",
+      "bytes": 1164783152,
+      "sha256": "dbd888a096fa3ff50bae0d92a1e0738aa469e57d8927e393d7fdae4908480311",
+      "bundles": [
+        "demo",
+        "smoke",
+        "training"
+      ],
+      "extract": true
+    },
+    {
+      "file": "training130-config.tar.gz",
+      "bytes": 138002,
+      "sha256": "0ca5674f769ef3b5bf0a7fbdaa258ff8198d3123747196c7c80c3fadd05c1854",
+      "bundles": [
+        "smoke",
+        "training"
+      ],
+      "extract": true
+    },
+    {
+      "file": "isaaclab-090aed18.tar.gz",
+      "bytes": 1208973,
+      "sha256": "14286beeb75e3f371e1241e4fd055f96b74ab6775126a8ac4eb39669c0acfa87",
+      "bundles": [
+        "demo",
+        "smoke",
+        "training"
+      ],
+      "extract": true
+    },
+    {
+      "file": "training130-smoke.tar.gz",
+      "bytes": 717761870,
+      "sha256": "4d2a70f2227622dc102a7370361a3de2b2288bed5261842a1bccb171e0ef2232",
+      "bundles": [
+        "smoke"
+      ],
+      "extract": true
+    },
+    {
+      "file": "training130-raw-01.tar.gz",
+      "bytes": 1328342141,
+      "sha256": "e04d7e8ae5c698dc0826b6f9f10607bf6c245e400a302c1791a5f99e8aa7c15c",
+      "bundles": [
+        "training"
+      ],
+      "extract": true
+    },
+    {
+      "file": "training130-raw-02.tar.gz",
+      "bytes": 1109052812,
+      "sha256": "9bf6ab52130347e2197dcb1a5061240fb8db7a7badea431a724deb01ad76f0f2",
+      "bundles": [
+        "training"
+      ],
+      "extract": true
+    },
+    {
+      "file": "training130-raw-03.tar.gz",
+      "bytes": 1313674548,
+      "sha256": "125d26c8eb25eba95fde10c988b42f8183ee8b73a2c6ac9f4184d9dc86f9e135",
+      "bundles": [
+        "training"
+      ],
+      "extract": true
+    },
+    {
+      "file": "training130-raw-04.tar.gz",
+      "bytes": 1195538815,
+      "sha256": "81672d1a51615f8a0e7afe71d412156ffbc24ae1d613063d7e685218959367a0",
+      "bundles": [
+        "training"
+      ],
+      "extract": true
+    },
+    {
+      "file": "training130-raw-05.tar.gz",
+      "bytes": 1176719099,
+      "sha256": "42b48cf1ba04f0563a657a7aa87da37becba36b16faba5638807a011ed7afcbd",
+      "bundles": [
+        "training"
+      ],
+      "extract": true
+    },
+    {
+      "file": "training130-raw-06.tar.gz",
+      "bytes": 1255540973,
+      "sha256": "d27aaadf0918fcbf7939e6bc76d517c6b1268a7cb4800a8dee258e3a0ef113ef",
+      "bundles": [
+        "training"
+      ],
+      "extract": true
+    },
+    {
+      "file": "training130-raw-07.tar.gz",
+      "bytes": 1224332021,
+      "sha256": "cf37c82747483718aa0a32c07083832288b053431da17555ee632460821ef2b2",
+      "bundles": [
+        "training"
+      ],
+      "extract": true
+    },
+    {
+      "file": "training130-raw-08.tar.gz",
+      "bytes": 1157625262,
+      "sha256": "2ee30ea64f5879d3dd6e0018bf8771c467365ddc4a05eb792dbe5f1842b14c66",
+      "bundles": [
+        "training"
+      ],
+      "extract": true
+    },
+    {
+      "file": "training130-raw-09.tar.gz",
+      "bytes": 1157979508,
+      "sha256": "315866288c8be6943efcdfa86bd00a81ae228deffd97d70f9f1132ad7295e0a0",
+      "bundles": [
+        "training"
+      ],
+      "extract": true
+    },
+    {
+      "file": "training130-raw-10.tar.gz",
+      "bytes": 1226414689,
+      "sha256": "d31f752b47d0a2132bd9862b87668a1cd3e5a9ebc5978e3cbbdfb13811f5d56d",
+      "bundles": [
+        "training"
+      ],
+      "extract": true
+    },
+    {
+      "file": "training130-raw-11.tar.gz",
+      "bytes": 1268752271,
+      "sha256": "1026885f35ec1a5484325187f69dff549e40e2edeaef7b75ff31232daf2a8d46",
+      "bundles": [
+        "training"
+      ],
+      "extract": true
+    },
+    {
+      "file": "training130-raw-12.tar.gz",
+      "bytes": 1312188400,
+      "sha256": "d03190d1073e30f44a0e9a592fbe3ecfe2a85a9503d68966dd5c6918f28281a9",
+      "bundles": [
+        "training"
+      ],
+      "extract": true
+    },
+    {
+      "file": "training130-raw-13.tar.gz",
+      "bytes": 1035542997,
+      "sha256": "4684ada4fe283389057897d992a0041a85e14a4b2c53f3bc32b3fe58d7ff1b77",
+      "bundles": [
+        "training"
+      ],
+      "extract": true
+    },
+    {
+      "file": "training130-raw-14.tar.gz",
+      "bytes": 1239731025,
+      "sha256": "897206ca096b9c8aad4d4591924bc4f1154102dbda8629f1c834fd36771db82e",
+      "bundles": [
+        "training"
+      ],
+      "extract": true
+    },
+    {
+      "file": "training130-raw-15.tar.gz",
+      "bytes": 1239041792,
+      "sha256": "4970c2d32d436fa09298441f691c8c297909412335205cdbb223c675c4181921",
+      "bundles": [
+        "training"
+      ],
+      "extract": true
+    },
+    {
+      "file": "training130-raw-16.tar.gz",
+      "bytes": 1244614991,
+      "sha256": "c9c84b7f4b050ea49023b69dcb4600c2642498269d8d74b200f4a9e1db7bdff9",
+      "bundles": [
+        "training"
+      ],
+      "extract": true
+    },
+    {
+      "file": "training130-raw-17.tar.gz",
+      "bytes": 1235645774,
+      "sha256": "0439070e86e9ed73f5d623215d43527b49987b7426dfe7752928d25c99fa4c0f",
+      "bundles": [
+        "training"
+      ],
+      "extract": true
+    },
+    {
+      "file": "training130-raw-18.tar.gz",
+      "bytes": 1101898349,
+      "sha256": "717aa8f0d6d5824bc81ddcc48d68849adfeea84848ae22c203a37e3ceb0d83cb",
+      "bundles": [
+        "training"
+      ],
+      "extract": true
+    },
+    {
+      "file": "training130-raw-19.tar.gz",
+      "bytes": 1191473528,
+      "sha256": "3d79b476d52461440776b47643745b57d5ec93a216e9ae64aa870757bf95457f",
+      "bundles": [
+        "training"
+      ],
+      "extract": true
+    },
+    {
+      "file": "training130-raw-20.tar.gz",
+      "bytes": 1165480856,
+      "sha256": "2f1560e632c181949818a5a022e3bd7dc3b4811f57ac9bc133a994a120a97aae",
+      "bundles": [
+        "training"
+      ],
+      "extract": true
+    },
+    {
+      "file": "training130-raw-21.tar.gz",
+      "bytes": 1248542784,
+      "sha256": "eb6970775d4c0b9d552c3e965e118e94c66bb5098b4494257d427cd46fdf6573",
+      "bundles": [
+        "training"
+      ],
+      "extract": true
+    },
+    {
+      "file": "training130-raw-22.tar.gz",
+      "bytes": 1053723501,
+      "sha256": "9ace0bde9516d35f6cedc3d500273c48c6c53b4c84dedb12ecbdf1d34892c978",
+      "bundles": [
+        "training"
+      ],
+      "extract": true
+    },
+    {
+      "file": "training130-raw-23.tar.gz",
+      "bytes": 1107900733,
+      "sha256": "bc8dc4f01598f90b01c252fadf164811f2a9beed92e3e74b40f17e29925ff98b",
+      "bundles": [
+        "training"
+      ],
+      "extract": true
+    },
+    {
+      "file": "training130-raw-24.tar.gz",
+      "bytes": 1098624489,
+      "sha256": "524ed7c9d8641f5a01fbae43a9c331ec3949697e3f79388d9bad1712f1017f6a",
+      "bundles": [
+        "training"
+      ],
+      "extract": true
+    },
+    {
+      "file": "training130-raw-25.tar.gz",
+      "bytes": 1172559102,
+      "sha256": "58982c4e28f2c410a470be3e82550bed1ce9111ce4efad745abce380cd6726a0",
+      "bundles": [
+        "training"
+      ],
+      "extract": true
+    },
+    {
+      "file": "training130-raw-26.tar.gz",
+      "bytes": 1201819235,
+      "sha256": "68998140904a36dcc38573ad2ad15c590cd8e195a91c582affb2ef563d5a2fb0",
+      "bundles": [
+        "training"
+      ],
+      "extract": true
+    },
+    {
+      "file": "training130-raw-27.tar.gz",
+      "bytes": 1208701504,
+      "sha256": "998460c440ab44e1e7893bc5a50ffdf617d346ed3d774a4df4c9043b39286e3c",
+      "bundles": [
+        "training"
+      ],
+      "extract": true
+    },
+    {
+      "file": "training130-raw-28.tar.gz",
+      "bytes": 861632212,
+      "sha256": "c8739fba17833cea80efb0126fe1aced2b4f63d32bf75ca8f1afd0137b9de36e",
+      "bundles": [
+        "training"
+      ],
+      "extract": true
+    },
+    {
+      "file": "training130-raw-29.tar.gz",
+      "bytes": 1319102057,
+      "sha256": "eaefecfba7c87c7c319708540a8684366edceb7e7fd672858ffa4ceb6f0f2231",
+      "bundles": [
+        "training"
+      ],
+      "extract": true
+    },
+    {
+      "file": "training130-raw-30.tar.gz",
+      "bytes": 1252994155,
+      "sha256": "a02f1df00c7539f403da63b485e40f7296f2a925a4053600e9249e1a98cce296",
+      "bundles": [
+        "training"
+      ],
+      "extract": true
+    },
+    {
+      "file": "training130-raw-31.tar.gz",
+      "bytes": 377138348,
+      "sha256": "5b2f49f5d3b7d16d386e61ad9c7fd5bec647b541de7dabf8781fefa4a4f82ca9",
+      "bundles": [
+        "training"
+      ],
+      "extract": true
+    },
+    {
+      "file": "A_72_dp.pt",
+      "bytes": 1164786455,
+      "sha256": "244ebfd5ad6a6081ed89a99d4b51c3844e476c30d0cc04eacf75c9aed5a9888e",
+      "bundles": [
+        "smoke",
+        "training"
+      ],
+      "extract": false,
+      "destination": "resources/training/parents/A_72_dp.pt"
+    },
+    {
+      "file": "A_72_transformer.pt",
+      "bytes": 9248705,
+      "sha256": "a0ed63e2128f3f55a53aeb68b4c25211abae8d2e98d12260a5f8899a0287f36a",
+      "bundles": [
+        "smoke",
+        "training"
+      ],
+      "extract": false,
+      "destination": "resources/training/parents/A_72_transformer.pt"
+    },
+    {
+      "file": "B_72_dp.pt",
+      "bytes": 1164693847,
+      "sha256": "ecd2c4d97f2929ba67af7e2cd14e6aca6d3b2b238720ff775debe1e6d6788134",
+      "bundles": [
+        "training"
+      ],
+      "extract": false,
+      "destination": "resources/training/parents/B_72_dp.pt"
+    },
+    {
+      "file": "B_72_transformer.pt",
+      "bytes": 9255681,
+      "sha256": "3a1c2a08f88318e20a3a72a095051d7ef373f11e9f7232b9960b0e3c3719e7d7",
+      "bundles": [
+        "training"
+      ],
+      "extract": false,
+      "destination": "resources/training/parents/B_72_transformer.pt"
+    }
+  ]
+}

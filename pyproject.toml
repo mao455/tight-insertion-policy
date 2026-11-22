@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tight-insertion-policy"
+version = "0.1.0"
+description = "KUKA-SHARPA Play2Perfect Tight-Insertion course project"
+requires-python = ">=3.11,<3.12"
+license = {text="MIT"}
+authors = [{name="Kushal Kedia"}, {name="mao455"}]
+
+[tool.setuptools.packages.find]
+include = ["course*", "visuotactile*", "isaacsimenvs*", "evaluation*", "tools*"]
+
+[tool.setuptools.package-data]
+"visuotactile.models.vendor" = ["LICENSE", "PROVENANCE.md"]

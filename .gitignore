@@ -1,0 +1,9 @@
+resources/
+artifacts/
+outputs/
+.venv/
+.deps/
+__pycache__/
+*.pyc
+*.egg-info/
+devtools/

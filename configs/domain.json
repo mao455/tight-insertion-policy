@@ -1,0 +1,45 @@
+{
+  "domain": {
+    "center": {
+      "object_xyz": [
+        -0.03232575998365054,
+        -0.01103706849990168,
+        0.63250910599455
+      ],
+      "relative_xyz": [
+        0.07399514386507924,
+        -0.02830284561436696,
+        -0.08228570222854614
+      ],
+      "quaternion": [
+        0.12416211631086395,
+        0.8920265731875647,
+        -0.38029772696726616,
+        0.2103475944481774
+      ]
+    },
+    "object_xy_halfwidth": [
+      0.002,
+      0.002
+    ],
+    "relative_xy_halfwidth": [
+      0.003,
+      0.003
+    ],
+    "rotation_radius_degrees": 1.5723102967361697,
+    "native_joint_lerp": 0.0075,
+    "table_z_m": [
+      0.379,
+      0.381
+    ],
+    "object_height_above_table_origin_m": [
+      0.248,
+      0.252
+    ],
+    "joint_velocity_halfwidth": 0.03
+  },
+  "layout": {
+    "version": "peg_spacing_reset_v1",
+    "distance_m": 0.1
+  }
+}

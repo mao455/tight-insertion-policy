@@ -1,0 +1,45 @@
+{
+  "selected": "A_130_50",
+  "scope": "Highest observed strict complete autonomous success among four existing paired frozen24 comparisons; not a new independent estimate after selection.",
+  "source_commit": "60e7b1fdd806bc31fb5e5cb2f49189018ba0d4f3",
+  "source_branch": "feature/tight-state-foundation",
+  "successes": 5,
+  "episodes": 24,
+  "percent": 20.833333333333332,
+  "models": {
+    "dp": {
+      "source": "outputs/visuotactile/run/tight_exposure50_20261119_01/A/training/best.pt",
+      "sha256": "df4782e5f1640ef10da89ce95d174e90da0703a969fc29e2a80841bbcd4c78fa",
+      "bytes": 1165628285
+    },
+    "transformer": {
+      "source": "outputs/visuotactile/run/tight_exposure50_20261119_01/A/backend/A/training/best.pt",
+      "sha256": "36e6b6e7bcd06aef7577320a3eb6309b4c4153ce09c173374f2d3bc9587554e9",
+      "bytes": 9750221
+    }
+  },
+  "comparisons": {
+    "A_130_50": {
+      "successes": 5,
+      "episodes": 24
+    },
+    "A_entry": {
+      "successes": 2,
+      "episodes": 24
+    },
+    "B_130_50": {
+      "successes": 1,
+      "episodes": 24
+    },
+    "B_entry": {
+      "successes": 4,
+      "episodes": 24
+    }
+  },
+  "later_experiments": {
+    "tight_alignment_pilot_20261122_01": "Takeover diagnostics, different initial states; not stronger comparable autonomous evidence.",
+    "tight_paired_dagger_20261122_01": "Parent reconstruction training active at packaging audit; no completed comparable frozen results found yet. Recheck before publication."
+  },
+  "demo_seed": 28853000,
+  "demo_seed_rule": "First fixed seed in a separate new range, chosen before GUI execution; no success-seeking retries. GUI acceptance rollout is not included in frozen24 rate."
+}

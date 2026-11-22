@@ -14,13 +14,13 @@
   {
     "path": "course/demo.py",
     "source_commit_sha256": null,
-    "course_sha256": "1360746c9bc612e0b842c82d71b23375e989feac4959d161c78ea6335e11d21e",
+    "course_sha256": "b5c5b788be2da00775ae80a27e3ef4af23888cd6a655b160ff954659822a56dc",
     "adapted": true
   },
   {
     "path": "course/download.py",
     "source_commit_sha256": null,
-    "course_sha256": "808b0313ecc4709f90a17978c0541aed35bbe1f933997cb3a9fc586e35789e9c",
+    "course_sha256": "0b5c2fe6f7d675d62a95a9d64d3ec9faf6f9c93ce55bec35b0ee9653ee193c16",
     "adapted": true
   },
   {
@@ -32,44 +32,32 @@
   {
     "path": "course/policy.py",
     "source_commit_sha256": null,
-    "course_sha256": "a46762e7c322a17873e7217da32aa4d5582cf45012ae3d34559d50f4f30f3626",
+    "course_sha256": "15015f5052e4e4e9e6eb418a469a199ae40c6057639d50fcd70f9acb143a9649",
     "adapted": true
   },
   {
     "path": "course/resources.py",
     "source_commit_sha256": null,
-    "course_sha256": "f9449a285fb0190d568b29d168cbece3594ed48c0aa716e31714aeccf2532ecc",
+    "course_sha256": "139cca0e1c47e4298ee3837823f1ccc33718dd273606592421f69f7d1b8b126b",
     "adapted": true
   },
   {
     "path": "course/smoke.py",
     "source_commit_sha256": null,
-    "course_sha256": "1a71d79f2eee25632d40f30a11254e3e488fc9bd7982d279f3cb1e4f0b77934f",
+    "course_sha256": "7825aa083603149144a2df7e70354c0eb5f3f288af8eda10639f2831555d16b8",
     "adapted": true
   },
   {
     "path": "course/train.py",
     "source_commit_sha256": null,
-    "course_sha256": "86df8a8173f0f19fc144d2cefc7d67efc57a3831fcdb047dbd7640a5d1239fca",
+    "course_sha256": "77539f07adf710c565761a0ec8c15c62bcd86d70af9523d10d33fc00075d2aa7",
     "adapted": true
   },
   {
     "path": "evaluation/__init__.py",
     "source_commit_sha256": "c33f18ee70cc97596888b1f6485d244abd704b6d750925f9c757b18849f8f3ae",
-    "course_sha256": "c33f18ee70cc97596888b1f6485d244abd704b6d750925f9c757b18849f8f3ae",
-    "adapted": false
-  },
-  {
-    "path": "evaluation/_viser_demo.py",
-    "source_commit_sha256": "89ef72d5a0e901ad9ac2e02a2f2848fdf0054ebb3e5103443e3220daef2d0612",
-    "course_sha256": "89ef72d5a0e901ad9ac2e02a2f2848fdf0054ebb3e5103443e3220daef2d0612",
-    "adapted": false
-  },
-  {
-    "path": "evaluation/eval_isaacsim.py",
-    "source_commit_sha256": "b79d1e1ed17f61ddb881d71e32c6241dba6e06f8c808027a2a2853d17759dcb5",
-    "course_sha256": "b79d1e1ed17f61ddb881d71e32c6241dba6e06f8c808027a2a2853d17759dcb5",
-    "adapted": false
+    "course_sha256": "214f9de4d5b309c6d7d1c609574a02df28a068e9a5d47b9f3e8d514fc4063cc8",
+    "adapted": true
   },
   {
     "path": "evaluation/objects.py",
@@ -80,7 +68,7 @@
   {
     "path": "evaluation/problems/__init__.py",
     "source_commit_sha256": "0966a87c1fe062746f5de1327ce3448fee36bd9b73ac566f220df1d3e7366bb1",
-    "course_sha256": "aea817c733c46427012ddc66d9eadab991726f86c2d00173aaf9a55ca7af1f50",
+    "course_sha256": "03ff5b74d7e08ea8a48fecbb597d5b5c46294d186eb04c6febc555d383b73ba1",
     "adapted": true
   },
   {
@@ -554,8 +542,8 @@
   {
     "path": "visuotactile/expert.py",
     "source_commit_sha256": "524f67297d76094de1c3df98171d28748f27892290f5b2c2bc38f10c8e670e09",
-    "course_sha256": "524f67297d76094de1c3df98171d28748f27892290f5b2c2bc38f10c8e670e09",
-    "adapted": false
+    "course_sha256": "9f44cdde620a8968ffa82182207111822d5ebede7bb90375690a9d13771500a2",
+    "adapted": true
   },
   {
     "path": "visuotactile/expert_speed.py",
@@ -738,22 +726,10 @@
     "adapted": false
   },
   {
-    "path": "visuotactile/paired_curve_diagnostics.py",
-    "source_commit_sha256": null,
-    "course_sha256": "10c76aa0fe390265a06064cc3e86f0b8f06ce4712e8f7e255bef3aff632065ef",
-    "adapted": true
-  },
-  {
     "path": "visuotactile/paired_episode_io.py",
     "source_commit_sha256": "525c8800322abf2daab0d6a55567facde3833e80757e05f8a8f4ef0c10a27c9b",
     "course_sha256": "525c8800322abf2daab0d6a55567facde3833e80757e05f8a8f4ef0c10a27c9b",
     "adapted": false
-  },
-  {
-    "path": "visuotactile/paired_training_decks.py",
-    "source_commit_sha256": null,
-    "course_sha256": "b8b84a638439d9dff3e9b6b8dace3f760c33a849dbe376c61473e40adc61cd5a",
-    "adapted": true
   },
   {
     "path": "visuotactile/phase_takeover.py",

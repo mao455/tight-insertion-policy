@@ -1,0 +1,23 @@
+{
+  "policy": "A_130_50",
+  "controller": "visuotactile/gpu_batch_controller.py:_act_neural_batch",
+  "inputs": [
+    "Three RGB-D cameras every control tick",
+    "Canonical joint position and velocity",
+    "Five-finger contact force with native substeps and validity stamps",
+    "Encoder FK finger position/rotation",
+    "Real previous requested/applied command and timestamps",
+    "Causal learned history"
+  ],
+  "excluded": [
+    "Expert actions at inference",
+    "Offline geometry targets",
+    "Object/hole pose truth as policy observations"
+  ],
+  "physics_hz": 120,
+  "control_hz": 60,
+  "planning_hz": 5,
+  "dino_revision": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+  "sampler_seed": 7091,
+  "vision_microbatch": 2
+}

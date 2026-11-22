@@ -38,7 +38,7 @@
   },
   "later_experiments": {
     "tight_alignment_pilot_20261122_01": "Takeover diagnostics, different initial states; not stronger comparable autonomous evidence.",
-    "tight_paired_dagger_20261122_01": "Read-only recheck 2026-11-22 22:28 Asia/Shanghai: parent reconstruction A epoch57/update6816 active; no completed final decision or comparable frozen autonomous results. Selection unchanged."
+    "tight_paired_dagger_20261122_01": "Read-only recheck 2026-11-22 23:05 Asia/Shanghai: cycle waiting_parent_owner; parent A training remains active. No completed comparable autonomous evaluation or final decision. Selection unchanged."
   },
   "demo_seed": 28851006,
   "demo_seed_rule": "After user reduced scope to code/checkpoint and requested the successful result, use the first A_130_50 strict success in frozen24 registration order. Known-case illustration, not a fresh estimate or new seed search.",
@@ -49,5 +49,6 @@
     "gui_acceptance_not_new_rate": true
   },
   "initial_acceptance_seed": 28853000,
-  "initial_acceptance_result": "Clean GUI: legal fall at494 control ticks; retained in evidence/acceptance/demo/result.json"
+  "initial_acceptance_result": "Superseded packaging diagnostic: incorrect displacement direction; retained in evidence/acceptance/attempts/first_acceptance_28853000",
+  "final_gui_acceptance": "evidence/acceptance/gui_acceptance.json: all four fixed-seed replicas completed; lane0 strict success282ticks, three timeouts. Illustration only, no new rate estimate."
 }

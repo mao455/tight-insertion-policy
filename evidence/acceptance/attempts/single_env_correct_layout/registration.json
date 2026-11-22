@@ -1,0 +1,14 @@
+{
+  "seed": 28851006,
+  "event_seed": 28951006,
+  "reset_seed": 29351006,
+  "policy": "A_130_50",
+  "gui": true,
+  "expert_used": false,
+  "physics_hz": 120,
+  "control_hz": 60,
+  "planning_hz": 5,
+  "sampler_seed": 7091,
+  "scope": "Known historical success case for demonstration; excluded from historical success rate",
+  "utc": 1795359038.0940764
+}

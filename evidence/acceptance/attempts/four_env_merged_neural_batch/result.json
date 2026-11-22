@@ -1,0 +1,42 @@
+{
+  "success": false,
+  "reasons": {
+    "fall": false,
+    "max_successes": false,
+    "hand_far": false,
+    "dropped": false,
+    "timeout": true
+  },
+  "software_complete": true,
+  "legal": true,
+  "steps": 601,
+  "physics_steps": 1202,
+  "native_subgoals": 0,
+  "policy": "A_130_50",
+  "seed": 28851006,
+  "expert_used": false,
+  "gui": true,
+  "allocated_envs": 4,
+  "demonstration_lane": 2,
+  "context_policy": "Same published A pair in every lane",
+  "other_terminals": {
+    "0": {
+      "steps": 391,
+      "success": false
+    },
+    "1": {
+      "steps": 601,
+      "success": false
+    },
+    "2": {
+      "steps": 601,
+      "success": false
+    },
+    "3": {
+      "steps": 601,
+      "success": false
+    }
+  },
+  "elapsed_s": 83.76228201529011,
+  "maximum_joint_displacement_rad": 1.9160199475008994
+}

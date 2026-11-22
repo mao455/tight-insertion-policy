@@ -1,34 +1,102 @@
 {
   "gui_passed": true,
-  "code_commit": "b0520da",
+  "code_commit": "a6bb3d0",
   "scope": "Clean clone using declared installed SDK; fresh OS/SDK installation not tested",
   "command": "env -u PYTHONPATH DISPLAY=:1 XAUTHORITY=/run/user/1001/gdm/Xauthority OMP_NUM_THREADS=4 MKL_NUM_THREADS=4 .venv/bin/python -m course.demo",
   "observations": [
-    "Main Isaac Sim 5.1 window with rendered KUKA-SHARPA robot, table, peg and hole",
-    "Robot hand and peg positions visibly changed across three live desktop inspections",
-    "control_tick 61 to 331 and physics_steps 122 to 662 seen while process active",
-    "Native evaluator legal fall terminal at control494/physics988; process exited0"
+    "Personally inspected active Isaac Sim 5.1 main window with valid KUKA-SHARPA, table, peg and hole rendering",
+    "Personally observed changed arm/hand/object poses across live desktop captures",
+    "Control ticks and native physical steps advanced online; maximum batch control810/physics1620",
+    "Read native evaluator lane0 complete insertion SUCCESS at control282/physics564, native_subgoals2",
+    "All four lanes reached native terminals: one strict success and three timeouts; process exit0"
   ],
-  "seed_fixed_before_execution": 28853000,
-  "failed_attempts": [
-    {
-      "attempt": 1,
-      "stage": "AppLauncher startup",
-      "reason": "Missing SDK app configs",
-      "physics_steps": 0
+  "result": {
+    "success": false,
+    "reasons": {
+      "fall": false,
+      "max_successes": false,
+      "hand_far": false,
+      "dropped": false,
+      "timeout": true
     },
-    {
-      "attempt": 2,
-      "stage": "Extension resolver",
-      "reason": "Unrelated missing Isaac Lab extension dependency",
-      "physics_steps": 0
-    }
+    "software_complete": true,
+    "legal": true,
+    "steps": 810,
+    "physics_steps": 1620,
+    "native_subgoals": 0,
+    "policy": "A_130_50",
+    "seed": 28851006,
+    "expert_used": false,
+    "gui": true,
+    "allocated_envs": 4,
+    "demonstration_lane": 2,
+    "context_policy": "Same published A pair in every lane",
+    "all_lane_results": {
+      "0": {
+        "steps": 282,
+        "physics_steps": 564,
+        "success": true,
+        "reasons": {
+          "fall": false,
+          "max_successes": true,
+          "hand_far": false,
+          "dropped": false,
+          "timeout": false
+        },
+        "native_subgoals": 2
+      },
+      "2": {
+        "steps": 601,
+        "physics_steps": 1202,
+        "success": false,
+        "reasons": {
+          "fall": false,
+          "max_successes": false,
+          "hand_far": false,
+          "dropped": false,
+          "timeout": true
+        },
+        "native_subgoals": 0
+      },
+      "3": {
+        "steps": 601,
+        "physics_steps": 1202,
+        "success": false,
+        "reasons": {
+          "fall": false,
+          "max_successes": false,
+          "hand_far": false,
+          "dropped": false,
+          "timeout": true
+        },
+        "native_subgoals": 0
+      },
+      "1": {
+        "steps": 810,
+        "physics_steps": 1620,
+        "success": false,
+        "reasons": {
+          "fall": false,
+          "max_successes": false,
+          "hand_far": false,
+          "dropped": false,
+          "timeout": true
+        },
+        "native_subgoals": 1
+      }
+    },
+    "successful_episodes": 1,
+    "camera_schedule": "(demonstration_lane + control_tick // 120) % num_envs; independent of outcomes",
+    "elapsed_s": 128.5505323652178,
+    "maximum_joint_displacement_rad": 1.8734876227099448
+  },
+  "demonstration_not_rate": "Fixed historical case, same published pair in all four lanes; all outcomes retained. Does not alter frozen24 denominator.",
+  "previous_attempts": "attempts/ledger.json; initial wrong-layout acceptance and its screenshots are superseded packaging diagnostics",
+  "isolation": "PYTHONPATH unset; active audit hook blocks original research/other project, original IsaacLab source and torch hub cache",
+  "limitations": [
+    "Native GPU physics and rendering are not bitwise deterministic; original successful lane2 timed out here",
+    "Reduced GPU allocation capacities; unchanged solver, contacts, sensors,120/60/5Hz and native strict evaluator; no overflow observed",
+    "Full clean-clone dataset transfer canceled at user request; real-data short training passed"
   ],
-  "blocked_original_paths": [
-    "/docs/bc+rl_RSS",
-    "/docs/continuous_vision/",
-    "/home/CNS2025331827/IsaacLab/",
-    "/.cache/torch/hub/"
-  ],
-  "inference": "Published original A_130_50 pair; no expert; not added to frozen24 denominator"
+  "utc": 1795359976.7748928
 }

@@ -1,7 +1,7 @@
 {
-  "seed": 28853000,
-  "event_seed": 28953000,
-  "reset_seed": 29353000,
+  "seed": 28851006,
+  "event_seed": 28951006,
+  "reset_seed": 29351006,
   "policy": "A_130_50",
   "gui": true,
   "expert_used": false,
@@ -9,6 +9,8 @@
   "control_hz": 60,
   "planning_hz": 5,
   "sampler_seed": 7091,
-  "scope": "Single GUI acceptance episode; excluded from historical success rate",
-  "utc": 1795356962.6249883
+  "allocated_envs": 4,
+  "demonstration_lane": 2,
+  "scope": "Known historical success case for demonstration; excluded from historical success rate",
+  "utc": 1795359739.3685348
 }

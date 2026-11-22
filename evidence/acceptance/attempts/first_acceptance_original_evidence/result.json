@@ -1,0 +1,21 @@
+{
+  "success": false,
+  "reasons": {
+    "fall": true,
+    "max_successes": false,
+    "hand_far": false,
+    "dropped": false,
+    "timeout": false
+  },
+  "software_complete": true,
+  "legal": true,
+  "steps": 494,
+  "physics_steps": 988,
+  "native_subgoals": 0,
+  "policy": "A_130_50",
+  "seed": 28853000,
+  "expert_used": false,
+  "gui": true,
+  "elapsed_s": 53.01409979816526,
+  "maximum_joint_displacement_rad": 1.8383886611554772
+}

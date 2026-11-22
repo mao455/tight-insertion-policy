@@ -1,21 +1,80 @@
 {
   "success": false,
   "reasons": {
-    "fall": true,
+    "fall": false,
     "max_successes": false,
     "hand_far": false,
     "dropped": false,
-    "timeout": false
+    "timeout": true
   },
   "software_complete": true,
   "legal": true,
-  "steps": 494,
-  "physics_steps": 988,
+  "steps": 810,
+  "physics_steps": 1620,
   "native_subgoals": 0,
   "policy": "A_130_50",
-  "seed": 28853000,
+  "seed": 28851006,
   "expert_used": false,
   "gui": true,
-  "elapsed_s": 53.01409979816526,
-  "maximum_joint_displacement_rad": 1.8383886611554772
+  "allocated_envs": 4,
+  "demonstration_lane": 2,
+  "context_policy": "Same published A pair in every lane",
+  "all_lane_results": {
+    "0": {
+      "steps": 282,
+      "physics_steps": 564,
+      "success": true,
+      "reasons": {
+        "fall": false,
+        "max_successes": true,
+        "hand_far": false,
+        "dropped": false,
+        "timeout": false
+      },
+      "native_subgoals": 2
+    },
+    "2": {
+      "steps": 601,
+      "physics_steps": 1202,
+      "success": false,
+      "reasons": {
+        "fall": false,
+        "max_successes": false,
+        "hand_far": false,
+        "dropped": false,
+        "timeout": true
+      },
+      "native_subgoals": 0
+    },
+    "3": {
+      "steps": 601,
+      "physics_steps": 1202,
+      "success": false,
+      "reasons": {
+        "fall": false,
+        "max_successes": false,
+        "hand_far": false,
+        "dropped": false,
+        "timeout": true
+      },
+      "native_subgoals": 0
+    },
+    "1": {
+      "steps": 810,
+      "physics_steps": 1620,
+      "success": false,
+      "reasons": {
+        "fall": false,
+        "max_successes": false,
+        "hand_far": false,
+        "dropped": false,
+        "timeout": true
+      },
+      "native_subgoals": 1
+    }
+  },
+  "successful_episodes": 1,
+  "camera_schedule": "(demonstration_lane + control_tick // 120) % num_envs; independent of outcomes",
+  "elapsed_s": 128.5505323652178,
+  "maximum_joint_displacement_rad": 1.8734876227099448
 }

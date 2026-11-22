@@ -1,0 +1,30 @@
+{
+  "exact_equal": true,
+  "fields": [
+    "joint_position_rad",
+    "joint_velocity_rad_s",
+    "object_pose_w",
+    "goal_pose_w",
+    "hole_pose_w",
+    "table_pose_w",
+    "successes",
+    "retract_phase",
+    "retract_succeeded",
+    "max_goals",
+    "lifted_object",
+    "object_initial_z_m",
+    "object_velocity_w_m_s_rad_s",
+    "goal_velocity_w_m_s_rad_s",
+    "base_pose_w",
+    "palm_body_pose_w",
+    "native_stage_step",
+    "is_random_goal",
+    "finger_position_w",
+    "finger_quat_wxyz",
+    "fk_position_error_m"
+  ],
+  "historical_case": "wave06/A_130_50_entry_final24_28851006",
+  "historical_file_sha256": "c51bb4ef9cfc95734f24908853c0fd57c181c2b28ac43a819bfa2fc9efcdaac8",
+  "acceptance_file_sha256": "c51bb4ef9cfc95734f24908853c0fd57c181c2b28ac43a819bfa2fc9efcdaac8",
+  "scope": "All recorded observable initial fields equal. No assertion about hidden PhysX state, future random streams, or identical trajectories."
+}

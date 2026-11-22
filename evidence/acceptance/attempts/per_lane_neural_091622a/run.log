@@ -1,0 +1,225 @@
+Loading user config located at: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/user.config.json'
+[Info] [carb] Logging to file: /home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/logs/Kit/Isaac-Sim/5.1/kit_20261122_225723.log
+2026-11-22T14:57:23Z [10ms] [Warning] [carb.crashreporter-breakpad.plugin] Failed to parse toml file '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/83725025-01f8-47a0-07ff9eb3-cb952828.dmp.toml': /home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/83725025-01f8-47a0-07ff9eb3-cb952828.dmp.toml could not be opened for parsing
+2026-11-22T14:57:23Z [11ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/83725025-01f8-47a0-07ff9eb3-cb952828.dmp'
+2026-11-22T14:57:23Z [62ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/4712dad0-74be-4713-7de4478e-84724970.dmp'
+2026-11-22T14:57:23Z [116ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/9d6be6e9-b8c8-46f9-099db79e-44e34745.dmp'
+2026-11-22T14:57:23Z [116ms] [Warning] [carb.crashreporter-breakpad.plugin] Failed to parse toml file '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/52943f88-4e8f-41ef-0cb527b7-6e0836b8.dmp.toml': /home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/52943f88-4e8f-41ef-0cb527b7-6e0836b8.dmp.toml could not be opened for parsing
+2026-11-22T14:57:23Z [116ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/52943f88-4e8f-41ef-0cb527b7-6e0836b8.dmp'
+2026-11-22T14:57:23Z [170ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/2fa74aee-861f-476f-4bbfa988-d4eb9328.dmp'
+2026-11-22T14:57:23Z [223ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/2ac0e65c-6533-41cd-557973b1-188e1180.dmp'
+2026-11-22T14:57:23Z [276ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/86d85139-34a4-42f5-c79a8196-0569a0af.dmp'
+2026-11-22T14:57:23Z [312ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/25699c01-cb02-48f3-448b54b4-9e498173.dmp'
+2026-11-22T14:57:23Z [348ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/e973633a-e8d0-45ac-4bc10caa-9b2b8768.dmp'
+2026-11-22T14:57:23Z [384ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/321a1204-273d-4db4-77432fb0-cf5f22a1.dmp'
+2026-11-22T14:57:23Z [420ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/e8e75f16-0d78-4b54-f5e5a6b9-691d67fc.dmp'
+2026-11-22T14:57:23Z [456ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/13d647de-f64c-41b3-55403e9f-1183fd88.dmp'
+2026-11-22T14:57:23Z [492ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/97877797-4e08-4207-e7558eb6-4d359d78.dmp'
+2026-11-22T14:57:23Z [531ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/f597a0c7-8d51-4388-d90744a9-3151dd66.dmp'
+2026-11-22T14:57:23Z [567ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/407b78d5-aa33-4919-e1c9d39d-59a5cd92.dmp'
+2026-11-22T14:57:23Z [603ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/94f80fae-0388-4e9d-75f5b3b1-efb6b1df.dmp'
+2026-11-22T14:57:23Z [639ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/1e6ba73a-d777-4b30-58640484-dd2da957.dmp'
+2026-11-22T14:57:23Z [675ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/447cf39e-7172-488e-9da4e699-66dcc4c5.dmp'
+2026-11-22T14:57:23Z [711ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/87f8db8b-1146-415f-cc1830b7-3528ea42.dmp'
+2026-11-22T14:57:23Z [747ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/5b14c579-8b81-472d-9ab9cbb5-09577650.dmp'
+2026-11-22T14:57:23Z [783ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/879a0702-298f-414b-194bf780-9927a7e7.dmp'
+2026-11-22T14:57:23Z [822ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/7d002389-5d99-4cb7-316df29e-76774e8f.dmp'
+2026-11-22T14:57:23Z [860ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/91f6fa14-9390-4257-cfbb7897-4b11add2.dmp'
+2026-11-22T14:57:23Z [900ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/95230d7a-32fd-464b-5f9584bf-8f441eb3.dmp'
+2026-11-22T14:57:24Z [940ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/33a4ff57-795d-42db-250a2bb6-b4eafbe9.dmp'
+2026-11-22T14:57:24Z [977ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/b75d6dd9-1643-4eb5-01d64f97-f13625ad.dmp'
+2026-11-22T14:57:24Z [1,019ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/9b9c713c-78ff-43b9-8e023eac-024fcc9d.dmp'
+2026-11-22T14:57:24Z [1,058ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/4c6a8c5c-56be-4b7e-c7a60fba-529a790d.dmp'
+2026-11-22T14:57:24Z [1,107ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/1f539548-5084-4ed3-38043bba-14c6c38d.dmp'
+2026-11-22T14:57:24Z [1,160ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/15436408-2b55-4d6a-261b9c9d-5bcc4126.dmp'
+2026-11-22T14:57:24Z [1,213ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/5e6037c6-378a-44ae-c2c60f83-e4333f37.dmp'
+2026-11-22T14:57:24Z [1,267ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/64de9789-f25b-4178-3389ed8a-99b8e91d.dmp'
+2026-11-22T14:57:24Z [1,320ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/aa953897-f1f7-40c5-406b5cab-cff0ddd5.dmp'
+2026-11-22T14:57:24Z [1,373ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/9a59aabd-a642-49e9-bbc7378a-22c57416.dmp'
+2026-11-22T14:57:24Z [1,426ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/01e65070-de4c-4c5e-27eb8eb8-ad16641b.dmp'
+2026-11-22T14:57:24Z [1,479ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/00349314-0c70-4d18-a0846084-b60100c2.dmp'
+2026-11-22T14:57:24Z [1,532ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/1f4e7538-ccbd-4281-1a5daaba-2f83ac9c.dmp'
+2026-11-22T14:57:24Z [1,587ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/353b2fc5-0bdb-45da-3caddca5-d6f85e1c.dmp'
+2026-11-22T14:57:24Z [1,640ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/d9c3fb19-25a7-45b1-e6aea086-11f4d865.dmp'
+2026-11-22T14:57:24Z [1,693ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/fc9af0a4-d63f-4800-6cb164bc-1c4ba3a1.dmp'
+2026-11-22T14:57:24Z [1,746ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/8a7c21ba-5aa8-4d08-1d1e1cbf-4dc5fa67.dmp'
+2026-11-22T14:57:24Z [1,791ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/97877674-8411-403c-a7b80782-fc50e793.dmp'
+2026-11-22T14:57:24Z [1,815ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/6538a7a7-2278-4d90-c4944bbe-d41ed40b.dmp'
+2026-11-22T14:57:24Z [1,837ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/20fb97b5-171b-4d8a-04adf683-5ca3eb8c.dmp'
+2026-11-22T14:57:24Z [1,859ms] [Warning] [carb.crashreporter-breakpad.plugin] [previous crash] preventing upload of minidump due to user opt-out: '/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/ae42d40e-0b14-4586-adf370a2-5eb5bf3a.dmp'
+
+|---------------------------------------------------------------------------------------------|
+| Driver Version: 590.48.01     | Graphics API: Vulkan
+|=============================================================================================|
+| GPU | Name                             | Active | LDA | GPU Memory | Vendor-ID | LUID       |
+|     |                                  |        |     |            | Device-ID | UUID       |
+|     |                                  |        |     |            | Bus-ID    |            |
+|---------------------------------------------------------------------------------------------|
+| 0   | NVIDIA GeForce RTX 4090 D        | Yes: 0 |     | 24810   MB | 10de      | 0          |
+|     |                                  |        |     |            | 2685      | 3cc2cf46.. |
+|     |                                  |        |     |            | 2         |            |
+|=============================================================================================|
+| OS: 24.04.4 LTS (Noble Numbat) ubuntu, Version: 24.04.4, Kernel: 6.17.0-19-generic
+| XServer Vendor: The X.Org Foundation, XServer Version: 12101011 (1.21.1.11)
+| Processor: Intel(R) Core(TM) Ultra 9 285K
+| Cores: 24 | Logical Cores: 24
+|---------------------------------------------------------------------------------------------|
+| Total Memory (MB): 63955 | Free Memory: 31193
+| Total Page/Swap (MB): 8191 | Free Page/Swap: 0
+|---------------------------------------------------------------------------------------------|
+2026-11-22T14:57:31Z [8,388ms] [Warning] [gpu.foundation.plugin] CPU performance profile is set to powersave. This profile sets the CPU to the lowest frequency reducing performance.
+2026-11-22T14:57:33Z [10,230ms] [Warning] [omni.log] Source: omni.hydra was already registered.
+2026-11-22T14:57:33Z [10,450ms] [Warning] [carb] Acquiring non optional plugin interface which is not listed as dependency: [omni::physx::IPhysxBenchmarks v1.0] (plugin: <default plugin>), by client: omni.physics.physx.plugin. Add it to CARB_PLUGIN_IMPL_DEPS() macro of a client.
+/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (7.4.3)/charset_normalizer (3.3.2) doesn't match a supported version!
+  warnings.warn(
+[INFO][AppLauncher]: Using device: cuda:0
+[INFO][AppLauncher]: Loading experience file: /home/CNS2025331827/docs/tight-insertion-policy-acceptance-20261122/resources/sdk/IsaacLab/apps/isaaclab.python.rendering.kit
+
+[36m======================================================================================================================================================================[0m
+[36m[1m[INFO][IsaacLab]: Logging to file: /home/CNS2025331827/docs/tight-insertion-policy-acceptance-20261122/outputs/demo/tmp/isaaclab/logs/isaaclab_2026-11-22_22-57-39.log[0m
+[36m======================================================================================================================================================================[0m
+
+[33m22:57:39 [simulation_context.py] WARNING: The `enable_external_forces_every_iteration` parameter in the PhysxCfg is set to False. If you are experiencing noisy velocities, consider enabling this flag. You may need to slightly increase the number of velocity iterations (setting it to 1 or 2 rather than 0), together with this flag, to improve the accuracy of velocity updates.[0m
+[INFO]: Base environment:
+	Environment device    : cuda:0
+	Environment seed      : 20261031
+	Physics step-size     : 0.00833333333
+	Rendering step-size   : 0.01666666666
+	Environment step-size : 0.01666666666
+[scene_utils][+0.00s] peg-in-hole setup start num_envs=4
+2026-11-22T14:57:33Z [10,614ms] [Warning] [omni.isaac.dynamic_control] omni.isaac.dynamic_control is deprecated as of Isaac Sim 4.5. No action is needed from end-users.
+2026-11-22T14:57:34Z [11,067ms] [Warning] [pxr.Semantics] pxr.Semantics is deprecated - please use Semantics instead
+2026-11-22T14:57:34Z [11,123ms] [Warning] [omni.graph.core.plugin] Found duplicate of category 'Replicator' - was 'Annotators', adding 'Fabric Reader'
+2026-11-22T14:57:34Z [11,123ms] [Warning] [omni.graph.core.plugin] Category 'Replicator' not accepted on node type 'omni.replicator.core.FabricReader' in extension 'omni.replicator.core'
+2026-11-22T14:57:34Z [11,124ms] [Warning] [omni.replicator.core.scripts.extension] No material configuration file, adding configuration to material settings directly.
+2026-11-22T14:57:35Z [12,896ms] [Warning] [omni.fabric.plugin] Warning: attribute viewPickingId not found for bucket id 9
+
+2026-11-22T14:57:36Z [12,940ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:reflection_roughness_constant)
+2026-11-22T14:57:36Z [12,940ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:transmittance_color)
+2026-11-22T14:57:36Z [12,940ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:ior_constant)
+2026-11-22T14:57:39Z [16,310ms] [Warning] [isaacsim.asset.importer.urdf] DEPRECATION WARNING: Merging bodies with inertia is deprecated. This will be removed in a future release.
+2026-11-22T14:57:39Z [16,310ms] [Warning] [isaacsim.asset.importer.urdf] link left_thumb_fingertip has body properties (mass, inertia, or collisions) and is being merged into left_thumb_elastomer
+2026-11-22T14:57:39Z [16,310ms] [Warning] [isaacsim.asset.importer.urdf] DEPRECATION WARNING: Merging bodies with inertia is deprecated. This will be removed in a future release.
+2026-11-22T14:57:39Z [16,310ms] [Warning] [isaacsim.asset.importer.urdf] link left_thumb_elastomer has body properties (mass, inertia, or collisions) and is being merged into left_thumb_DP
+2026-11-22T14:57:39Z [16,310ms] [Warning] [isaacsim.asset.importer.urdf] DEPRECATION WARNING: Merging bodies with inertia is deprecated. This will be removed in a future release.
+2026-11-22T14:57:39Z [16,310ms] [Warning] [isaacsim.asset.importer.urdf] link left_index_fingertip has body properties (mass, inertia, or collisions) and is being merged into left_index_elastomer
+2026-11-22T14:57:39Z [16,310ms] [Warning] [isaacsim.asset.importer.urdf] DEPRECATION WARNING: Merging bodies with inertia is deprecated. This will be removed in a future release.
+2026-11-22T14:57:39Z [16,310ms] [Warning] [isaacsim.asset.importer.urdf] link left_index_elastomer has body properties (mass, inertia, or collisions) and is being merged into left_index_DP
+2026-11-22T14:57:39Z [16,310ms] [Warning] [isaacsim.asset.importer.urdf] DEPRECATION WARNING: Merging bodies with inertia is deprecated. This will be removed in a future release.
+2026-11-22T14:57:39Z [16,310ms] [Warning] [isaacsim.asset.importer.urdf] link left_middle_fingertip has body properties (mass, inertia, or collisions) and is being merged into left_middle_elastomer
+2026-11-22T14:57:39Z [16,310ms] [Warning] [isaacsim.asset.importer.urdf] DEPRECATION WARNING: Merging bodies with inertia is deprecated. This will be removed in a future release.
+2026-11-22T14:57:39Z [16,310ms] [Warning] [isaacsim.asset.importer.urdf] link left_middle_elastomer has body properties (mass, inertia, or collisions) and is being merged into left_middle_DP
+2026-11-22T14:57:39Z [16,310ms] [Warning] [isaacsim.asset.importer.urdf] DEPRECATION WARNING: Merging bodies with inertia is deprecated. This will be removed in a future release.
+2026-11-22T14:57:39Z [16,310ms] [Warning] [isaacsim.asset.importer.urdf] link left_ring_fingertip has body properties (mass, inertia, or collisions) and is being merged into left_ring_elastomer
+[scene_utils][+1.32s] converted object/hole/table URDFs
+[scene_utils][+1.89s] spawned robot/table/hole/object/goalviz
+[scene_utils][+2.84s] registered assets with scene
+[scene_utils][+0.00s] hid 4 GoalViz prims from render products
+[scene_utils][+0.02s] registered student camera backend=standard modality=rgbd size=448x252
+2026-11-22T14:57:39Z [16,310ms] [Warning] [isaacsim.asset.importer.urdf] DEPRECATION WARNING: Merging bodies with inertia is deprecated. This will be removed in a future release.
+2026-11-22T14:57:39Z [16,310ms] [Warning] [isaacsim.asset.importer.urdf] link left_ring_elastomer has body properties (mass, inertia, or collisions) and is being merged into left_ring_DP
+2026-11-22T14:57:39Z [16,310ms] [Warning] [isaacsim.asset.importer.urdf] DEPRECATION WARNING: Merging bodies with inertia is deprecated. This will be removed in a future release.
+2026-11-22T14:57:39Z [16,310ms] [Warning] [isaacsim.asset.importer.urdf] link left_pinky_fingertip has body properties (mass, inertia, or collisions) and is being merged into left_pinky_elastomer
+2026-11-22T14:57:39Z [16,310ms] [Warning] [isaacsim.asset.importer.urdf] DEPRECATION WARNING: Merging bodies with inertia is deprecated. This will be removed in a future release.
+2026-11-22T14:57:39Z [16,310ms] [Warning] [isaacsim.asset.importer.urdf] link left_pinky_elastomer has body properties (mass, inertia, or collisions) and is being merged into left_pinky_DP
+2026-11-22T14:57:39Z [16,310ms] [Warning] [isaacsim.asset.importer.urdf] DEPRECATION WARNING: Merging bodies with inertia is deprecated. This will be removed in a future release.
+2026-11-22T14:57:39Z [16,310ms] [Warning] [isaacsim.asset.importer.urdf] link left_hand_C_MC has body properties (mass, inertia, or collisions) and is being merged into sharpa_mount
+2026-11-22T14:57:39Z [16,310ms] [Warning] [isaacsim.asset.importer.urdf] DEPRECATION WARNING: Merging bodies with inertia is deprecated. This will be removed in a future release.
+2026-11-22T14:57:39Z [16,310ms] [Warning] [isaacsim.asset.importer.urdf] link sharpa_mount has body properties (mass, inertia, or collisions) and is being merged into iiwa14_link_ee
+2026-11-22T14:57:39Z [16,310ms] [Warning] [isaacsim.asset.importer.urdf] DEPRECATION WARNING: Merging bodies with inertia is deprecated. This will be removed in a future release.
+2026-11-22T14:57:39Z [16,310ms] [Warning] [isaacsim.asset.importer.urdf] link iiwa14_link_ee has body properties (mass, inertia, or collisions) and is being merged into iiwa14_link_7
+2026-11-22T14:57:42Z [19,678ms] [Warning] [carb] Client omni.hydratexture.plugin has acquired [carb::settings::ISettings v1.0] 100 times. Consider accessing this interface with carb::getCachedInterface() (Performance warning)
+2026-11-22T14:57:42Z [19,696ms] [Warning] [carb] Client omni.hydratexture.plugin has acquired [carb::dictionary::IDictionary v1.1] 100 times. Consider accessing this interface with carb::getCachedInterface() (Performance warning)
+2026-11-22T14:57:42Z [19,824ms] [Warning] [omni.fabric.plugin] USD->Fabric: Unhandled array type string[]
+2026-11-22T14:57:42Z [19,834ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:ior_constant)
+2026-11-22T14:57:42Z [19,834ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:ior_constant)
+2026-11-22T14:57:42Z [19,834ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:transmittance_color)
+2026-11-22T14:57:42Z [19,834ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:ior_constant)
+2026-11-22T14:57:42Z [19,834ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:transmittance_color)
+2026-11-22T14:57:42Z [19,834ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:ior_constant)
+2026-11-22T14:57:42Z [19,834ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:transmittance_color)
+2026-11-22T14:57:42Z [19,834ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:reflection_roughness_constant)
+2026-11-22T14:57:42Z [19,835ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:ior_constant)
+2026-11-22T14:57:42Z [19,835ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:transmittance_color)
+2026-11-22T14:57:42Z [19,835ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:ior_constant)
+2026-11-22T14:57:42Z [19,835ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:ior_constant)
+2026-11-22T14:57:42Z [19,835ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:reflection_roughness_constant)
+2026-11-22T14:57:42Z [19,835ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:reflection_roughness_constant)
+2026-11-22T14:57:42Z [19,835ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:reflection_roughness_constant)
+2026-11-22T14:57:42Z [19,835ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:reflection_roughness_constant)
+2026-11-22T14:57:42Z [19,835ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:transmittance_color)
+2026-11-22T14:57:42Z [19,835ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:ior_constant)
+2026-11-22T14:57:42Z [19,835ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:reflection_roughness_constant)
+2026-11-22T14:57:42Z [19,835ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:ior_constant)
+2026-11-22T14:57:42Z [19,835ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:reflection_roughness_constant)
+2026-11-22T14:57:42Z [19,835ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:reflection_roughness_constant)
+2026-11-22T14:57:42Z [19,836ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:ior_constant)
+2026-11-22T14:57:42Z [19,836ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:transmittance_color)
+2026-11-22T14:57:42Z [19,836ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:transmittance_color)
+2026-11-22T14:57:42Z [19,836ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:reflection_roughness_constant)
+2026-11-22T14:57:42Z [19,836ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:transmittance_color)
+2026-11-22T14:57:42Z [19,836ms] [Warning] [usdrt.population.plugin] [UsdNoticeHandler] Unhandled attribute type VtArray<std::string> (prim attribute: omni:rtx:material:db:flattener:reflection_roughness_constant)
+[INFO]: Time taken for scene creation : 2.889013 seconds
+[INFO]: Scene manager:  <class InteractiveScene>
+	Number of environments: 4
+	Environment spacing   : 8.0
+	Source prim name      : /World/envs/env_0
+	Global prim paths     : []
+	Replicate physics     : False
+[INFO]: Starting the simulation. This may take a few seconds. Please wait...
+[INFO]: Time taken for simulation start : 1.942938 seconds
+Creating window for environment.
+ManagerLiveVisualizer cannot be created for manager: action_manager, Manager does not exist
+ManagerLiveVisualizer cannot be created for manager: observation_manager, Manager does not exist
+[INFO]: Completed setting up the environment...
+[scene_utils][+0.00s] applied PhysX material properties
+[PreciseAssemblyEnv] problem=tight_insertion object=lpeg_matchedmass goals=2 (prelude=0, tail=2) goal_mode=preInsertAndFinal random_goal_fraction=0.0
+/home/CNS2025331827/docs/tight-insertion-policy-acceptance-20261122/resources/dinov2/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/CNS2025331827/docs/tight-insertion-policy-acceptance-20261122/resources/dinov2/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/CNS2025331827/docs/tight-insertion-policy-acceptance-20261122/resources/dinov2/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+[33m22:57:50 [rigid_object.py] WARNING: The function 'set_external_force_and_torque' will be deprecated in a future release. Please use 'permanent_wrench_composer.set_forces_and_torques' instead.[0m
+GUI control_tick=1 physics_steps=2 native_subgoals=0
+[33m22:57:55 [rigid_object.py] WARNING: The function 'set_external_force_and_torque' will be deprecated in a future release. Please use 'permanent_wrench_composer.set_forces_and_torques' instead.[0m
+GUI control_tick=31 physics_steps=62 native_subgoals=0
+[33m22:58:00 [rigid_object.py] WARNING: The function 'set_external_force_and_torque' will be deprecated in a future release. Please use 'permanent_wrench_composer.set_forces_and_torques' instead.[0m
+GUI control_tick=61 physics_steps=122 native_subgoals=0
+[33m22:58:05 [rigid_object.py] WARNING: The function 'set_external_force_and_torque' will be deprecated in a future release. Please use 'permanent_wrench_composer.set_forces_and_torques' instead.[0m
+GUI control_tick=91 physics_steps=182 native_subgoals=0
+[33m22:58:10 [rigid_object.py] WARNING: The function 'set_external_force_and_torque' will be deprecated in a future release. Please use 'permanent_wrench_composer.set_forces_and_torques' instead.[0m
+GUI control_tick=121 physics_steps=242 native_subgoals=0
+[33m22:58:15 [rigid_object.py] WARNING: The function 'set_external_force_and_torque' will be deprecated in a future release. Please use 'permanent_wrench_composer.set_forces_and_torques' instead.[0m
+GUI control_tick=151 physics_steps=302 native_subgoals=0
+[33m22:58:20 [rigid_object.py] WARNING: The function 'set_external_force_and_torque' will be deprecated in a future release. Please use 'permanent_wrench_composer.set_forces_and_torques' instead.[0m
+GUI control_tick=181 physics_steps=362 native_subgoals=0
+[33m22:58:25 [rigid_object.py] WARNING: The function 'set_external_force_and_torque' will be deprecated in a future release. Please use 'permanent_wrench_composer.set_forces_and_torques' instead.[0m
+GUI control_tick=211 physics_steps=422 native_subgoals=0
+[33m22:58:30 [rigid_object.py] WARNING: The function 'set_external_force_and_torque' will be deprecated in a future release. Please use 'permanent_wrench_composer.set_forces_and_torques' instead.[0m
+GUI control_tick=241 physics_steps=482 native_subgoals=0
+[33m22:58:36 [rigid_object.py] WARNING: The function 'set_external_force_and_torque' will be deprecated in a future release. Please use 'permanent_wrench_composer.set_forces_and_torques' instead.[0m
+GUI control_tick=271 physics_steps=542 native_subgoals=0
+[33m22:58:41 [rigid_object.py] WARNING: The function 'set_external_force_and_torque' will be deprecated in a future release. Please use 'permanent_wrench_composer.set_forces_and_torques' instead.[0m
+GUI control_tick=301 physics_steps=602 native_subgoals=0
+[33m22:58:46 [rigid_object.py] WARNING: The function 'set_external_force_and_torque' will be deprecated in a future release. Please use 'permanent_wrench_composer.set_forces_and_torques' instead.[0m
+GUI control_tick=331 physics_steps=662 native_subgoals=0
+[33m22:58:51 [rigid_object.py] WARNING: The function 'set_external_force_and_torque' will be deprecated in a future release. Please use 'permanent_wrench_composer.set_forces_and_torques' instead.[0m
+GUI control_tick=361 physics_steps=722 native_subgoals=0
+[33m22:58:56 [rigid_object.py] WARNING: The function 'set_external_force_and_torque' will be deprecated in a future release. Please use 'permanent_wrench_composer.set_forces_and_torques' instead.[0m
+GUI control_tick=391 physics_steps=782 native_subgoals=0
+[33m22:59:01 [rigid_object.py] WARNING: The function 'set_external_force_and_torque' will be deprecated in a future release. Please use 'permanent_wrench_composer.set_forces_and_torques' instead.[0m
+GUI control_tick=421 physics_steps=842 native_subgoals=0
+[33m22:59:06 [rigid_object.py] WARNING: The function 'set_external_force_and_torque' will be deprecated in a future release. Please use 'permanent_wrench_composer.set_forces_and_torques' instead.[0m
+GUI control_tick=451 physics_steps=902 native_subgoals=0
+[33m22:59:11 [rigid_object.py] WARNING: The function 'set_external_force_and_torque' will be deprecated in a future release. Please use 'permanent_wrench_composer.set_forces_and_torques' instead.[0m
+GUI control_tick=481 physics_steps=962 native_subgoals=0
+[33m22:59:16 [rigid_object.py] WARNING: The function 'set_external_force_and_torque' will be deprecated in a future release. Please use 'permanent_wrench_composer.set_forces_and_torques' instead.[0m
+GUI control_tick=511 physics_steps=1022 native_subgoals=0
+[33m22:59:21 [rigid_object.py] WARNING: The function 'set_external_force_and_torque' will be deprecated in a future release. Please use 'permanent_wrench_composer.set_forces_and_torques' instead.[0m
+GUI control_tick=541 physics_steps=1082 native_subgoals=0
+[33m22:59:26 [rigid_object.py] WARNING: The function 'set_external_force_and_torque' will be deprecated in a future release. Please use 'permanent_wrench_composer.set_forces_and_torques' instead.[0m
+GUI control_tick=571 physics_steps=1142 native_subgoals=0
+[33m22:59:31 [rigid_object.py] WARNING: The function 'set_external_force_and_torque' will be deprecated in a future release. Please use 'permanent_wrench_composer.set_forces_and_torques' instead.[0m
+GUI control_tick=601 physics_steps=1202 native_subgoals=0
+NATIVE EVALUATOR: FAILURE {"success": false, "reasons": {"fall": false, "max_successes": false, "hand_far": false, "dropped": false, "timeout": true}, "software_complete": true, "legal": true, "steps": 601, "physics_steps": 1202, "native_subgoals": 0, "policy": "A_130_50", "seed": 28851006, "expert_used": false, "gui": true, "allocated_envs": 4, "demonstration_lane": 2, "context_policy": "Same published A pair in every lane", "other_terminals": {"0": {"steps": 332, "success": true}, "2": {"steps": 601, "success": false}, "3": {"steps": 601, "success": false}}, "elapsed_s": 102.63803541008383, "maximum_joint_displacement_rad": 1.8600573849398643}

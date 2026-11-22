@@ -1,0 +1,5 @@
+lane,seed,policy,strict_success,control_steps,physics_steps,native_subgoals,timeout
+0,28851006,A_130_50,True,282,564,2,False
+1,28851006,A_130_50,False,810,1620,1,True
+2,28851006,A_130_50,False,601,1202,0,True
+3,28851006,A_130_50,False,601,1202,0,True

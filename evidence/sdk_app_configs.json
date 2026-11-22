@@ -1,0 +1,38 @@
+[
+  {
+    "path": "resources/sdk/IsaacLab/apps/isaaclab.python.kit",
+    "source_revision": "090aed18163b2194d5551c7919f7539283677743",
+    "source_path": "apps/isaaclab.python.kit",
+    "sha256": "c1bd3ad4796249923b3d82994abcb40c779a9bf9bae55647348a115d30b0d9a2"
+  },
+  {
+    "path": "resources/sdk/IsaacLab/apps/isaaclab.python.rendering.kit",
+    "source_revision": "090aed18163b2194d5551c7919f7539283677743",
+    "source_path": "apps/isaaclab.python.rendering.kit",
+    "sha256": "9586c282cc14cff26eb420ee366eba2455ecc7168487d2a0954714677b5aa308"
+  },
+  {
+    "path": "resources/sdk/IsaacLab/apps/rendering_modes/balanced.kit",
+    "source_revision": "090aed18163b2194d5551c7919f7539283677743",
+    "source_path": "apps/rendering_modes/balanced.kit",
+    "sha256": "e4018ffa5f6c42293ba86b09f3036d4078585962233d5001a8580c7eb7a782ad"
+  },
+  {
+    "path": "resources/sdk/IsaacLab/apps/rendering_modes/extension.toml",
+    "source_revision": "090aed18163b2194d5551c7919f7539283677743",
+    "source_path": "apps/rendering_modes/extension.toml",
+    "sha256": "205fae2a30929724b9f6b5e126eb803491a7d2b0dccfe10d5f691bd4082501a4"
+  },
+  {
+    "path": "resources/sdk/IsaacLab/apps/rendering_modes/performance.kit",
+    "source_revision": "090aed18163b2194d5551c7919f7539283677743",
+    "source_path": "apps/rendering_modes/performance.kit",
+    "sha256": "07488d242117cbb18e1dd8cd99594e10a2f4b4a469f4ac8d84cd0c8ed15b4eca"
+  },
+  {
+    "path": "resources/sdk/IsaacLab/apps/rendering_modes/quality.kit",
+    "source_revision": "090aed18163b2194d5551c7919f7539283677743",
+    "source_path": "apps/rendering_modes/quality.kit",
+    "sha256": "bf701e78c1bd15dc87f6533a8a3918dc3727bd67bf42f4aa68371e3c4ff1e651"
+  }
+]

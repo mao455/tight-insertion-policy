@@ -19,7 +19,7 @@ Real-data workflow check (one DP update → new nominal for three full episodes 
 .venv/bin/python -m course.download smoke
 OMP_NUM_THREADS=4 MKL_NUM_THREADS=4 .venv/bin/python -m course.train smoke --root outputs/smoke
 ```
-Complete selected72-parent continuation on the original 130-train/6-validation pool and unchanged family split (distinct from the historical 400-episode archive):
+Full retraining recipe (not run during acceptance): selected72-parent continuation on the original 130-train/6-validation pool and unchanged family split, distinct from the historical 400-episode archive:
 ```bash
 .venv/bin/python -m course.download training
 OMP_NUM_THREADS=4 MKL_NUM_THREADS=4 .venv/bin/python -m course.train all --root outputs/full-A --role A

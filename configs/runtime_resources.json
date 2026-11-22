@@ -1,0 +1,31 @@
+{
+  "A_130_50_dp.pt": {
+    "bytes": 1165628285,
+    "sha256": "df4782e5f1640ef10da89ce95d174e90da0703a969fc29e2a80841bbcd4c78fa",
+    "release": "resources-v1",
+    "archive": "demo-A_130_50.tar.gz",
+    "member": "resources/A_130_50_dp.pt"
+  },
+  "A_130_50_transformer.pt": {
+    "bytes": 9750221,
+    "sha256": "36e6b6e7bcd06aef7577320a3eb6309b4c4153ce09c173374f2d3bc9587554e9",
+    "release": "resources-v1",
+    "archive": "demo-A_130_50.tar.gz",
+    "member": "resources/A_130_50_transformer.pt"
+  },
+  "u_statistics.pt": {
+    "bytes": 4043,
+    "sha256": "779baae89d0b06cddc26d5b1e7b77239e9776c1f29cda31ab0bfaabd96124117",
+    "release": "resources-v1",
+    "archive": "demo-A_130_50.tar.gz",
+    "member": "resources/u_statistics.pt"
+  },
+  "dinov2_vits14_pretrain.pth": {
+    "bytes": 88283115,
+    "sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+    "release": "resources-v1",
+    "archive": "demo-A_130_50.tar.gz",
+    "member": "resources/dinov2_vits14_pretrain.pth"
+  },
+  "dino_revision": "7764ea0f912e53c92e82eb78a2a1631e92725fc8"
+}

@@ -10,7 +10,7 @@ package preserves upstream attribution and does not include other task assets.
 DINOv2 is pinned to facebookresearch/dinov2 revision
 7764ea0f912e53c92e82eb78a2a1631e92725fc8. Its Apache-2.0 license, model card
 and upstream notices ship with the resource archive in resources/dinov2/.
-The ViT-S/14 weight SHA256 is recorded in configs/resources.json and the
+The ViT-S/14 weight SHA256 is recorded in configs/runtime_resources.json and the
 release checksum file. Original source: https://github.com/facebookresearch/dinov2
 Original weight: https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_pretrain.pth
 

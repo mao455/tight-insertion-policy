@@ -1,0 +1,225 @@
+{
+  "source_commit": "60e7b1fdd806bc31fb5e5cb2f49189018ba0d4f3",
+  "files": [
+    {
+      "path": "assets/urdf/kuka_sharpa_description/iiwa14_left_sharpa_adjusted_restricted.urdf",
+      "bytes": 40899,
+      "sha256": "3c36492da57eb4326068a0b97b2d064034035d9037c07e345a1317ead195fb71"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/left_sharpa_meshes/MCP_VL.STL",
+      "bytes": 75184,
+      "sha256": "587e34505de3b4f5b7131e6554e0ab92a18a3c28d250ea46eaf728c4539bf77d"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/left_sharpa_meshes/elastomer.STL",
+      "bytes": 271584,
+      "sha256": "1611f42070a8fb34226508417bb930af53bbe9e3b619113136b60cb0595ca4ed"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/left_sharpa_meshes/elastomer_surface.STL",
+      "bytes": 362534,
+      "sha256": "7f88a20e862895e3bf97d35c600b9eb5c2f2e49f8918ef9fe07bd82e6572fae8"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/left_sharpa_meshes/left_DP.STL",
+      "bytes": 101684,
+      "sha256": "09ae5e485d42c651c70d025ef6bcd000f727dd1535836d7d8fa9de0686db4583"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/left_sharpa_meshes/left_DP_visual.STL",
+      "bytes": 320284,
+      "sha256": "f21c6a8d12a21b29ff05127ec1987135cc966a283707165d93a30f9e74d4a0ed"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/left_sharpa_meshes/left_MCP_VL_visual.STL",
+      "bytes": 322584,
+      "sha256": "0e8b15c4d8426a26cb222b8c1592f5e913c079aebdc0abaecda273b7d8ed0f3a"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/left_sharpa_meshes/left_MP.STL",
+      "bytes": 37084,
+      "sha256": "1f0a96877af9ec35f20941ae696e9e22cedc6e341703657b0c6d0ebc982897a9"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/left_sharpa_meshes/left_MP_visual.STL",
+      "bytes": 369384,
+      "sha256": "0e9ac7a8208ab2478cdff8ae40036b93e040a05f89ae0c43ece83a62fdf15293"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/left_sharpa_meshes/left_PP.STL",
+      "bytes": 82484,
+      "sha256": "6e4434712a5c668dbeda169e727629e95d4a9492fca431126543109451e2484f"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/left_sharpa_meshes/left_PP_visual.STL",
+      "bytes": 559934,
+      "sha256": "881e6eeeaecbf0a8bd6b11fa7f41a5aa139900635fe82b765586460c9a9c1580"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/left_sharpa_meshes/left_hand_C_MC.STL",
+      "bytes": 174184,
+      "sha256": "01e17ed8392d99e76d1c00a849749610c3f7715f18ea12b107ba56eba3541fee"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/left_sharpa_meshes/left_hand_C_MC_visual.STL",
+      "bytes": 1254651,
+      "sha256": "1d2fd19344c3df368d3888afa464255cf62c704f793534affd38d5760d067d62"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/left_sharpa_meshes/left_pinky_MC.STL",
+      "bytes": 41984,
+      "sha256": "f7a7192ae246a6b88f9096332216013c8f6be507ee0dc9bfd4444518453b0c13"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/left_sharpa_meshes/left_pinky_MC_visual.STL",
+      "bytes": 66184,
+      "sha256": "98b520aa40d6f1fff0f433cfc6ef2baddb550a6452a8753301934812d111bbf1"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/left_sharpa_meshes/left_thumb_CMC_VL.STL",
+      "bytes": 317984,
+      "sha256": "9c862ce10c4958ef967ed46fed837fafb20dd2c84a23ef9ee4f793576ef1fb93"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/left_sharpa_meshes/left_thumb_DP.STL",
+      "bytes": 66484,
+      "sha256": "7bd0a9187d9cca7c3136d471784db39a3593b5264e16586002f73db42292dc6e"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/left_sharpa_meshes/left_thumb_DP_visual.STL",
+      "bytes": 335484,
+      "sha256": "7bac46dd5699d6b2fed60fdb384199cdab7407343d61db3fc8737866096fa440"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/left_sharpa_meshes/left_thumb_MC.STL",
+      "bytes": 171084,
+      "sha256": "3f15b81f22feec350ae2f60a7c69ca36028bd580d6cf4722d4f759d401ea02f9"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/left_sharpa_meshes/left_thumb_MCP_VL_visual.STL",
+      "bytes": 300784,
+      "sha256": "47f990c04f09174666773687f9e4e1b4031dd150481c1d26719bbba874ae0709"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/left_sharpa_meshes/left_thumb_MC_visual.STL",
+      "bytes": 580084,
+      "sha256": "da4fb47f6126ca3b653689aea6d958e08dde7d0c232a3043773e18f447aa121a"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/left_sharpa_meshes/left_thumb_PP.STL",
+      "bytes": 83784,
+      "sha256": "2847673ad531a6d1fe3d12b3433d080358727def9acade9f0319c18579676b13"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/left_sharpa_meshes/left_thumb_PP_visual.STL",
+      "bytes": 772184,
+      "sha256": "7f4a561b611af82e27bb5c8d6838d574e71e2ede42d25edf1f57c2b54ebde072"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/left_sharpa_meshes/thumb_elastomer.STL",
+      "bytes": 270684,
+      "sha256": "8fb5b2036eda97fe4c2ce50ad8e021775185961c478c0d6f25f5a776588d9b14"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/left_sharpa_meshes/thumb_elastomer_surface.STL",
+      "bytes": 506484,
+      "sha256": "1b25efc390f9db9eca87ed167e7baa2e3220a417bbd49924beb077da458c6241"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/new_iiwa14_meshes/collision/link_0.stl",
+      "bytes": 474784,
+      "sha256": "c632ecaa1ac46e1e25049c8481294e12f9add608f5057a6d8cc1081500c60cfe"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/new_iiwa14_meshes/collision/link_1.stl",
+      "bytes": 180884,
+      "sha256": "9cf1187e91773ed84537e77b9a6e09236b9c43917daf8eb179d86c156d518edf"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/new_iiwa14_meshes/collision/link_2.stl",
+      "bytes": 219884,
+      "sha256": "dc88e298c0cffb84fe7453a4da92f5eb90e56fe81cfc696125daf86e0bea80e3"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/new_iiwa14_meshes/collision/link_3.stl",
+      "bytes": 230884,
+      "sha256": "90a96fac0454352bb2c963b4fa3bfa5a8a501b8a83a90de2b73febf664eb943f"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/new_iiwa14_meshes/collision/link_4.stl",
+      "bytes": 210984,
+      "sha256": "1cb4ae0a86ac257c6c091d8a96635650d7e8510b07a22ce6e51038dde8b52493"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/new_iiwa14_meshes/collision/link_5.stl",
+      "bytes": 253284,
+      "sha256": "3058aff537c66e231ecd10b049305e57f9dc0e9a81d8a2ee6d5c2594e4ad2daa"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/new_iiwa14_meshes/collision/link_6.stl",
+      "bytes": 164284,
+      "sha256": "396c7c48e56722aa2a91570cd80973ac86136903271d127296cca9a979461f4a"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/new_iiwa14_meshes/collision/link_7.stl",
+      "bytes": 569184,
+      "sha256": "ad18fb8192b1ea3cdf7a11403fd1b3c3844afa9fa4a6e98d67535d1093cf6512"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/new_iiwa14_meshes/visual/link_0.stl",
+      "bytes": 474784,
+      "sha256": "c632ecaa1ac46e1e25049c8481294e12f9add608f5057a6d8cc1081500c60cfe"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/new_iiwa14_meshes/visual/link_1.stl",
+      "bytes": 500384,
+      "sha256": "805123013961f6826d7758135761987a1d256208e71434faaad2e948ca0f9b72"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/new_iiwa14_meshes/visual/link_2.stl",
+      "bytes": 529884,
+      "sha256": "fdb369057e77e22e4227b45f31d1e886a3f334b7ba21408bb50b65afae06c6f4"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/new_iiwa14_meshes/visual/link_3.stl",
+      "bytes": 523584,
+      "sha256": "0e717bada1d1678c5569723b968873abc94457c029d7a8f390b79d9df5054141"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/new_iiwa14_meshes/visual/link_4.stl",
+      "bytes": 525084,
+      "sha256": "9b85dc3d45e5d598cde06db94fa5ce54f65a336dafd57ee035e3d7cae1fbbcab"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/new_iiwa14_meshes/visual/link_5.stl",
+      "bytes": 645184,
+      "sha256": "886aa0aa139066872e3dbb4039eed84e7a644a1fecf178a3232a82a5fa3c7e11"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/new_iiwa14_meshes/visual/link_6.stl",
+      "bytes": 392884,
+      "sha256": "a6f66246346dab8d5142e74b37d75cbe34a89101f2e4c2646c006b43f6bea90a"
+    },
+    {
+      "path": "assets/urdf/kuka_sharpa_description/new_iiwa14_meshes/visual/link_7.stl",
+      "bytes": 1906984,
+      "sha256": "e6575d6389547cdb1d6bd56562a18f08b69e1d522d115a7e1bc70fd3f53532d0"
+    },
+    {
+      "path": "assets/urdf/peg_in_hole/holes/hole_tol0p5mm/hole_tol0p5mm.urdf",
+      "bytes": 2122,
+      "sha256": "6848b2d756a84b0b1b1d6ea56227c2322ef3ef06546abc48433cd036e6e650bc"
+    },
+    {
+      "path": "assets/urdf/peg_in_hole/lpeg_matchedmass/lpeg_matchedmass.urdf",
+      "bytes": 2685,
+      "sha256": "f5a7ba576e235d5f5326140f36075658a03bbe6ee57a84cb1cecf27f799071f3"
+    },
+    {
+      "path": "assets/urdf/table_narrow.urdf",
+      "bytes": 601,
+      "sha256": "617d5b51280ff87a82081cd5ffdfeb6fc95c5510a7f5920a96e8542600181f42"
+    }
+  ]
+}

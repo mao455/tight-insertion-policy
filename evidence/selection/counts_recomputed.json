@@ -1,0 +1,50 @@
+[
+  {
+    "policy": "A_130_50",
+    "cohort": "fresh16",
+    "successes": 3,
+    "episodes": 16
+  },
+  {
+    "policy": "A_130_50",
+    "cohort": "reserved8",
+    "successes": 2,
+    "episodes": 8
+  },
+  {
+    "policy": "A_entry",
+    "cohort": "fresh16",
+    "successes": 2,
+    "episodes": 16
+  },
+  {
+    "policy": "A_entry",
+    "cohort": "reserved8",
+    "successes": 0,
+    "episodes": 8
+  },
+  {
+    "policy": "B_130_50",
+    "cohort": "fresh16",
+    "successes": 1,
+    "episodes": 16
+  },
+  {
+    "policy": "B_130_50",
+    "cohort": "reserved8",
+    "successes": 0,
+    "episodes": 8
+  },
+  {
+    "policy": "B_entry",
+    "cohort": "fresh16",
+    "successes": 3,
+    "episodes": 16
+  },
+  {
+    "policy": "B_entry",
+    "cohort": "reserved8",
+    "successes": 1,
+    "episodes": 8
+  }
+]

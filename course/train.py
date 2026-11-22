@@ -23,6 +23,11 @@ def prepare(root,role,smoke=False,hours=96):
            'full_trajectory_batch.json','frozen_visual_io.json','frozen_visual_hotset.json','backend_episode_sampling.json','cuda_allocator_policy.json']:
   if (template/n).exists():shutil.copy2(template/n,root/n)
  write(root/'session.json',s)
+ metadata=read(root/'metadata.json')
+ for key,value in metadata['config']['assets'].items():
+  if isinstance(value,str) and '/assets/' in value:
+   metadata['config']['assets'][key]=str(ROOT/'assets'/value.split('/assets/',1)[1])
+ write(root/'metadata.json',metadata)
  data=read(template/role/'data.json')
  for i,e in data['entries'].items():e['path']=str(ROOT/manifest['entries'][i]['path'])
  ids=data['splits']['train'][:2]+data['splits']['validation'][:1] if smoke else data['splits']['train']+data['splits']['validation']
@@ -39,8 +44,8 @@ def prepare(root,role,smoke=False,hours=96):
   records[i]=r;contexts[i]=c
  # Both roles retain the same command-affine population and family split.
  for target in 'AB':
-  d=copy.deepcopy(data);d['supervision']='q_reached' if target=='A' else 'u_expert'
-  d['normalization_identity']=read(template/target/'data.json')['normalization_identity']
+  d=read(template/target/'data.json')
+  d['entries']=copy.deepcopy(data['entries'])
   rr=root/target;dr=rr/'state_data';dr.mkdir(parents=True)
   write(dr/'data.json',d)
   save(dr/'numeric.pt',dict(contract=d['contract'],data_sha256=sha256(dr/'data.json'),records=records))

@@ -32,4 +32,4 @@ From the repository root in a graphical desktop session:
 ```bash
 OMP_NUM_THREADS=4 MKL_NUM_THREADS=4 .venv/bin/python -m course.demo
 ```
-This opens Isaac Sim, loads the released pair and native scene, runs the first registered historical A success, seed 28851006 at 120/60/5 Hz, and prints `NATIVE EVALUATOR: SUCCESS` or `FAILURE`. A timeout is a valid terminal; this acceptance episode does not change the historical success rate. This known success case is a demonstration, not a new success-rate estimate. Results are saved under `outputs/demo`; preserve that directory and use `--output outputs/demo-next` for another execution.
+This opens Isaac Sim with four copies of the released pair (native batch size), follows lane 2 of the first registered historical A success, seed 28851006 at 120/60/5 Hz, and prints `NATIVE EVALUATOR: SUCCESS` or `FAILURE`. A timeout is a valid terminal; this acceptance episode does not change the historical success rate. This known success case is a demonstration, not a new success-rate estimate. Results are saved under `outputs/demo`; preserve that directory and use `--output outputs/demo-next` for another execution.

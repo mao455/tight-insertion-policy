@@ -19,13 +19,17 @@ def main():
     parser.add_argument('--output', type=Path, default=ROOT/'outputs/demo')
     parser.add_argument('--seed', type=int, default=28851006)
     parser.add_argument('--checkpoint-dir', type=Path)
+    parser.add_argument('--num-envs', type=int, choices=[1,4], default=4)
+    parser.add_argument('--lane', type=int, default=2)
     parser.add_argument('--keep-open', action='store_true')
     parser.add_argument('--gpu-wait-seconds',type=float,default=900)
     args = parser.parse_args()
+    lane = args.lane if args.num_envs == 4 else 0
+    if not 0 <= lane < args.num_envs: raise ValueError('Invalid demonstration lane')
     if not os.environ.get('DISPLAY'):
         raise RuntimeError('A real graphical desktop DISPLAY is required for this demo')
     from course.resources import wait_for_gpu
-    wait_for_gpu(5,args.gpu_wait_seconds)
+    wait_for_gpu(8 if args.num_envs == 4 else 5,args.gpu_wait_seconds)
     output = args.output.resolve()
     output.mkdir(parents=True, exist_ok=False)
     os.environ.setdefault('TMPDIR', str(output/'tmp'))
@@ -37,6 +41,7 @@ def main():
     atomic_json(output/'registration.json', dict(seed=args.seed, event_seed=args.seed+100000,
         reset_seed=args.seed+500000, policy='A_130_50', gui=True, expert_used=False,
         physics_hz=120, control_hz=60, planning_hz=5, sampler_seed=7091,
+        allocated_envs=args.num_envs, demonstration_lane=lane,
         scope='Known historical success case for demonstration; excluded from historical success rate',
         utc=time.time()))
     from isaaclab.app import AppLauncher
@@ -47,7 +52,7 @@ def main():
     state_fp32()
     from visuotactile.native_evaluation import make_env
     from visuotactile.environment_rng import IsolatedEnvironment, LaneRandomStreams
-    from visuotactile.narrow_data import direct_configuration, configure_direct_reset
+    from visuotactile.narrow_data import direct_configuration, configure_direct_reset, configure_direct_reset_lanes
     from visuotactile.live_collision import clearance
     from visuotactile.models.native_vision import NativeDinoSpatial
     from visuotactile.gpu_batch_controller import GPUBatchedResidualController
@@ -60,18 +65,23 @@ def main():
     xy += contract['layout']['distance_m']*direction/np.linalg.norm(direction)
     config['fixed_start_pose'][:2] = xy.tolist()
     atomic_json(output/'reset_configuration.json', config)
-    env = make_env(True, LocalLease(), num_envs=1, scene_queries=True, camera_content_validation=True,
+    env = make_env(True, LocalLease(), num_envs=args.num_envs, scene_queries=True, camera_content_validation=True,
         execution_backend={'version':'tight_execution_backend_v2','physics_device':'cuda:0',
             'camera_backend':'standard','kit_tasking_threads':4,'physics_threads':2,
             'renderer_descriptor_sets':360000,'renderer_reserved_descriptors':900000})
     from visuotactile.current_render import CurrentRenderReuse
     render_reuse = CurrentRenderReuse(env)
-    configure_direct_reset(env, config)
+    if args.num_envs == 1: configure_direct_reset(env, config)
+    else: configure_direct_reset_lanes(env, [config]*args.num_envs)
+    env.batch_static_calibration_cache=True
+    env._fixed_renderer_pose_cache=None
     reset = env._reset_idx
-    streams = LaneRandomStreams([args.seed+500000], device=str(env.device))
+    streams = LaneRandomStreams([args.seed+500000]*args.num_envs, device=str(env.device))
     def paired_reset(ids):
-        with streams.scope(0):
-            reset(ids)
+        selected = list(range(args.num_envs)) if ids is None else ids.tolist()
+        for index in selected:
+            with streams.scope(index):
+                reset(torch.tensor([index], device=env.device, dtype=torch.long))
     env._reset_idx = paired_reset
     isolated = IsolatedEnvironment(env, args.seed)
     env.clear_recorded_events()
@@ -79,7 +89,7 @@ def main():
     isolated.reset(args.seed)
     isolated.begin_events(args.seed+100000)
     env.action_control_mode = 'absolute_joint_position_target_rad'
-    legal = clearance(env)
+    legal = clearance(env,lane=lane)
     atomic_json(output/'initial_clearance.json', legal)
     if not legal['legal']:
         raise RuntimeError('Predetermined start failed native clearance; no seed substitution')
@@ -89,12 +99,17 @@ def main():
     metadata['env_origins_w'] = env.scene.env_origins.cpu().tolist()
     atomic_json(output/'metadata.json', metadata)
     dino = NativeDinoSpatial().cuda().eval()
-    controller = GPUBatchedResidualController(saved, metadata, dino, 1, neural_batch=True,
+    controller = GPUBatchedResidualController(saved, metadata, dino, args.num_envs, neural_batch=True,
         scheduler_index_mode='host', vision_microbatch=2)
     from isaaclab.sim import SimulationContext
-    env.sim.set_camera_view(eye=(1.25,1.10,1.05), target=(0.,0.,.65))
+    origin=env.scene.env_origins[lane].cpu().numpy()
+    env.sim.set_camera_view(eye=origin+np.array((1.25,1.10,1.05)), target=origin+np.array((0.,0.,.65)))
+    atomic_json(output/'initial_observable.json', {k:v[lane:lane+1].cpu().tolist() for k,v in env._diagnostics().items()})
+    atomic_json(output/'env_origins.json',env.scene.env_origins.cpu().tolist())
     initial_q = env._diagnostics()['joint_position_rad'].clone()
     rows=[]
+    active=[True]*args.num_envs
+    terminals={}
     began=time.perf_counter()
     max_steps=2*env.cfg.termination.episode_length+4
     for tick in range(max_steps):
@@ -102,15 +117,15 @@ def main():
             raise RuntimeError('GUI window closed before native evaluator terminal')
         with torch.no_grad():
             packet=env.research_packet
-            command=controller.act(packet, env._diagnostics(), [True])
+            command=controller.act(packet, env._diagnostics(), active)
             _,_,terminated,truncated,_=isolated.step(command)
             transition=env.last_transition
-            controller.lanes[0].observe_execution(transition)
-            reasons={k:bool(v[0]) for k,v in transition['termination_reasons'].items()}
-            q=transition['diagnostics_after']['joint_position_rad'][0].cpu()
+            controller.observe_execution(transition,active)
+            reasons={k:bool(v[lane]) for k,v in transition['termination_reasons'].items()}
+            q=transition['diagnostics_after']['joint_position_rad'][lane].cpu()
             rows.append(dict(tick=tick,physics_steps=2*(tick+1),q=q.tolist(),
-                native_subgoals=int(transition['diagnostics_after']['successes'][0]),
-                object_pose=transition['diagnostics_after']['object_pose_w'][0].cpu().tolist()))
+                native_subgoals=int(transition['diagnostics_after']['successes'][lane]),
+                object_pose=transition['diagnostics_after']['object_pose_w'][lane].cpu().tolist()))
         if tick%30==0:
             print(f'GUI control_tick={tick+1} physics_steps={2*(tick+1)} native_subgoals={rows[-1]["native_subgoals"]}',flush=True)
         if tick in (0,60,180,360):
@@ -119,12 +134,17 @@ def main():
                 ImageGrab.grab(xdisplay=os.environ['DISPLAY']).save(output/f'gui_tick_{tick:04d}.png')
             except Exception as error:
                 print('Desktop screenshot unavailable:',error,flush=True)
-        if bool((terminated|truncated)[0]):
+        for index in range(args.num_envs):
+            if active[index] and bool((terminated|truncated)[index]):
+                terminals[index]=dict(steps=tick+1,success=bool(transition['termination_reasons']['max_successes'][index]))
+                active[index]=False
+        if bool((terminated|truncated)[lane]):
             result=dict(success=reasons['max_successes'],reasons=reasons,software_complete=True,
                 legal=True,steps=tick+1,physics_steps=2*(tick+1),native_subgoals=rows[-1]['native_subgoals'],
                 policy='A_130_50',seed=args.seed,expert_used=False,gui=True,
+                allocated_envs=args.num_envs,demonstration_lane=lane,context_policy='Same published A pair in every lane',other_terminals=terminals,
                 elapsed_s=time.perf_counter()-began,
-                maximum_joint_displacement_rad=max(abs(a-b) for row in rows for a,b in zip(row['q'],initial_q[0].cpu().tolist())))
+                maximum_joint_displacement_rad=max(abs(a-b) for row in rows for a,b in zip(row['q'],initial_q[lane].cpu().tolist())))
             atomic_json(output/'result.json',result)
             atomic_json(output/'trace.json',rows)
             print('NATIVE EVALUATOR: '+('SUCCESS' if result['success'] else 'FAILURE')+' '+json.dumps(result),flush=True)

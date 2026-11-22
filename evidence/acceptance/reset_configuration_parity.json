@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "checked_seeds": [
+    28851000,
+    28851001,
+    28851002,
+    28851003,
+    28851004,
+    28851005,
+    28851006,
+    28851007,
+    28852000,
+    28852001,
+    28852002,
+    28852003,
+    28852004,
+    28852005,
+    28852006,
+    28852007,
+    28852008,
+    28852009,
+    28852010,
+    28852011,
+    28852012,
+    28852013,
+    28852014,
+    28852015
+  ],
+  "comparison": "Exact Python values versus all24 frozen reset_configuration dictionaries",
+  "corrected": "Use fixed displacement direction from domain center as in upstream scripts/tight_layout_20261116/pilot.py; earlier packaging attempts used sampled relative direction and are retained as superseded diagnostics"
+}

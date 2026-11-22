@@ -53,11 +53,10 @@ def main():
     from visuotactile.gpu_batch_controller import GPUBatchedResidualController
     contract = json.loads((ROOT/'configs/domain.json').read_text())
     config = direct_configuration(contract['domain'], args.seed)
-    # Native 10cm layout: translate the initial peg away from the hole along XY.
+    # Exact native layout: fixed displacement direction from the domain center.
     import numpy as np
     xy = np.array(config['fixed_start_pose'][:2])
-    hole = np.array([config['hole_x_range'][0],config['hole_y_range'][0]])
-    direction = xy-hole
+    direction = -np.asarray(contract['domain']['center']['relative_xyz'][:2], dtype=float)
     xy += contract['layout']['distance_m']*direction/np.linalg.norm(direction)
     config['fixed_start_pose'][:2] = xy.tolist()
     atomic_json(output/'reset_configuration.json', config)

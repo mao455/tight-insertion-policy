@@ -38,7 +38,7 @@
   },
   "later_experiments": {
     "tight_alignment_pilot_20261122_01": "Takeover diagnostics, different initial states; not stronger comparable autonomous evidence.",
-    "tight_paired_dagger_20261122_01": "Parent reconstruction training active at packaging audit; no completed comparable frozen results found yet. Recheck before publication."
+    "tight_paired_dagger_20261122_01": "Read-only recheck 2026-11-22 22:28 Asia/Shanghai: parent reconstruction A epoch57/update6816 active; no completed final decision or comparable frozen autonomous results. Selection unchanged."
   },
   "demo_seed": 28851006,
   "demo_seed_rule": "After user reduced scope to code/checkpoint and requested the successful result, use the first A_130_50 strict success in frozen24 registration order. Known-case illustration, not a fresh estimate or new seed search.",

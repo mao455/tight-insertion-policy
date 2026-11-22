@@ -1,5 +1,5 @@
-"""Download fixed private-release assets and verify every file before use."""
-import argparse, concurrent.futures, hashlib, json, os, subprocess, tarfile, tempfile
+"""Download fixed public-release assets and verify every file before use."""
+import argparse, concurrent.futures, hashlib, json, os, shutil, tarfile, tempfile, time, urllib.request
 from pathlib import Path
 from course.environment import ROOT
 REPOSITORY = 'mao455/tight-insertion-policy'
@@ -14,9 +14,16 @@ def acquire(row):
     target.parent.mkdir(parents=True, exist_ok=True)
     if not verified(target, row):
         with tempfile.TemporaryDirectory(prefix='acquire-', dir=target.parent) as temporary:
-            subprocess.run(['gh', 'release', 'download', TAG, '--repo', REPOSITORY,
-                '--pattern', row['file'], '--dir', temporary], check=True)
             received = Path(temporary)/row['file']
+            url = f'https://github.com/{REPOSITORY}/releases/download/{TAG}/{row["file"]}'
+            for attempt in range(3):
+                try:
+                    with urllib.request.urlopen(url, timeout=120) as response, received.open('wb') as stream:
+                        shutil.copyfileobj(response, stream, length=1024*1024)
+                    break
+                except Exception:
+                    if attempt == 2: raise
+                    time.sleep(2*(attempt+1))
             if not verified(received, row):
                 raise ValueError('Resource checksum failed: '+row['file'])
             os.replace(received, target)
@@ -24,7 +31,6 @@ def acquire(row):
         with tarfile.open(target) as archive:
             archive.extractall(ROOT, filter='data')
     else:
-        import shutil
         destination = ROOT/row['destination']
         destination.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(target, destination)

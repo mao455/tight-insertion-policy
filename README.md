@@ -4,7 +4,6 @@ Tested on Ubuntu 24.04.4, Python 3.11.15, RTX 4090 D (24 GB), driver 590.48.01, 
 ```bash
 conda activate isaaclab
 bash scripts/environment.sh
-gh auth login
 .venv/bin/python -m course.download demo
 .venv/bin/python -m pip install --no-deps --no-build-isolation -e resources/sdk/IsaacLab/source/isaaclab
 ```

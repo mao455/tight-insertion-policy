@@ -1,0 +1,31 @@
+RUNNING README GUI COMMAND
+Waiting for GPU0: 3308 MiB free; need 5 GiB
+Waiting for GPU0: 3308 MiB free; need 5 GiB
+Waiting for GPU0: 3308 MiB free; need 5 GiB
+[Error] [omni.kit.app.plugin] File doesn't exist: '/home/CNS2025331827/docs/tight-insertion-policy-acceptance-20261122/resources/sdk/IsaacLab/apps/isaaclab.python.rendering.kit'. Can't run.
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/CNS2025331827/docs/tight-insertion-policy-acceptance-20261122/course/demo.py", line 144, in <module>
+    main()
+  File "/home/CNS2025331827/docs/tight-insertion-policy-acceptance-20261122/course/demo.py", line 43, in main
+    app = AppLauncher(headless=False, enable_cameras=True, device='cuda:0', fast_shutdown=False,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/CNS2025331827/docs/tight-insertion-policy-acceptance-20261122/resources/sdk/IsaacLab/source/isaaclab/isaaclab/app/app_launcher.py", line 131, in __init__
+    self._create_app()
+  File "/home/CNS2025331827/docs/tight-insertion-policy-acceptance-20261122/resources/sdk/IsaacLab/source/isaaclab/isaaclab/app/app_launcher.py", line 823, in _create_app
+    self._app = SimulationApp(self._sim_app_config, experience=self._sim_experience_file)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/exts/isaacsim.simulation_app/isaacsim/simulation_app/simulation_app.py", line 285, in __init__
+    from .utils import create_new_stage, open_stage
+  File "/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/isaacsim/exts/isaacsim.simulation_app/isaacsim/simulation_app/utils.py", line 23, in <module>
+    from omni.kit.usd import layers
+ModuleNotFoundError: No module named 'omni.kit.usd'
+[INFO][AppLauncher]: Using device: cuda:0
+[INFO][AppLauncher]: Loading experience file: /home/CNS2025331827/docs/tight-insertion-policy-acceptance-20261122/resources/sdk/IsaacLab/apps/isaaclab.python.rendering.kit
+Traceback (most recent call last):
+  File "/home/CNS2025331827/docs/tight-insertion-policy-acceptance-20261122/outputs/acceptance_gui.py", line 11, in <module>
+    subprocess.run(['.venv/bin/python','-m','course.demo'],env=env,check=True)
+  File "/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['.venv/bin/python', '-m', 'course.demo']' returned non-zero exit status 1.

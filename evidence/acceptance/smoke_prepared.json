@@ -1,0 +1,46 @@
+{
+  "role": "A",
+  "smoke": true,
+  "ids": [
+    "layout10_train_28817000",
+    "layout10_train_28817001",
+    "layout10_validation_28818000"
+  ],
+  "train": 130,
+  "validation": 6,
+  "original_archive400": "Distinct historical archive; not the current training pool",
+  "parents": {
+    "A": {
+      "path": "resources/training/parents/A_72_dp.pt",
+      "sha256": "244ebfd5ad6a6081ed89a99d4b51c3844e476c30d0cc04eacf75c9aed5a9888e",
+      "statistics_sha256": "b62c366d37bb554cf88cc970d40fd84ce79b304d6b306c2735925bba2a7e0c34",
+      "source_root": "research-source:outputs/visuotactile/run/tight_cycle_20261118_01/learning/A",
+      "reuse_index": "research-source:outputs/visuotactile/run/tight_cycle_20261118_01/learning/A/cache_index.json",
+      "target_window_contract": "recovery_onset_commit12_v1",
+      "learning_rate": 3e-05,
+      "initialization": "Current selected DP EMA; fresh paired AdamW/EMA; fixed original30 affine",
+      "previous_backend": "resources/training/parents/A_72_transformer.pt",
+      "previous_backend_sha256": "a0ed63e2128f3f55a53aeb68b4c25211abae8d2e98d12260a5f8899a0287f36a",
+      "sampling_contract": {
+        "version": "original_demonstration_replay_v1",
+        "original_repeat": 3
+      }
+    },
+    "B": {
+      "path": "resources/training/parents/B_72_dp.pt",
+      "sha256": "ecd2c4d97f2929ba67af7e2cd14e6aca6d3b2b238720ff775debe1e6d6788134",
+      "statistics_sha256": "779baae89d0b06cddc26d5b1e7b77239e9776c1f29cda31ab0bfaabd96124117",
+      "source_root": "research-source:outputs/visuotactile/run/tight_cycle_20261118_01/learning/B",
+      "reuse_index": "research-source:outputs/visuotactile/run/tight_cycle_20261118_01/learning/B/cache_index.json",
+      "target_window_contract": "recovery_onset_commit12_v1",
+      "learning_rate": 3e-05,
+      "initialization": "Current selected DP EMA; fresh paired AdamW/EMA; fixed original30 affine",
+      "previous_backend": "resources/training/parents/B_72_transformer.pt",
+      "previous_backend_sha256": "3a1c2a08f88318e20a3a72a095051d7ef373f11e9f7232b9960b0e3c3719e7d7",
+      "sampling_contract": {
+        "version": "original_demonstration_replay_v1",
+        "original_repeat": 3
+      }
+    }
+  }
+}

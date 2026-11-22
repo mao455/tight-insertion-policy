@@ -1,0 +1,14 @@
+{
+  "seed": 28853000,
+  "event_seed": 28953000,
+  "reset_seed": 29353000,
+  "policy": "A_130_50",
+  "gui": true,
+  "expert_used": false,
+  "physics_hz": 120,
+  "control_hz": 60,
+  "planning_hz": 5,
+  "sampler_seed": 7091,
+  "scope": "Single GUI acceptance episode; excluded from historical success rate",
+  "utc": 1795356962.6249883
+}

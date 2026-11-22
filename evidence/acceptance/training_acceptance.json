@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "code_commit": "b0520da",
+  "command": "env -u PYTHONPATH OMP_NUM_THREADS=4 MKL_NUM_THREADS=4 .venv/bin/python -m course.train smoke --root outputs/smoke",
+  "data": "Released real training130 smoke bundle; two full train histories and one full validation history",
+  "stages": [
+    "Prepare raw labels and original statistics",
+    "Encode three episodes with pinned DINOv2",
+    "One actual B2 DP optimizer/EMA update",
+    "Regenerate nominal from the newly saved DP for all three complete histories",
+    "Two actual causal Transformer optimizer updates",
+    "Save and reload matched DP/Transformer/statistics; prediction equality checked"
+  ],
+  "limitations": [
+    "Workflow validation only; full60-epoch training not executed",
+    "Reused declared installed Isaac Sim SDK; fresh OS/SDK install not tested"
+  ],
+  "isolation": "Clean clone; PYTHONPATH unset; audit hook blocks research project, other project, original IsaacLab source, and torch hub cache"
+}

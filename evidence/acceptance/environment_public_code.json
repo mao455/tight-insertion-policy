@@ -1,0 +1,17 @@
+{
+  "python": "3.11.15 (main, Mar 11 2026, 17:20:07) [GCC 14.3.0]",
+  "versions": {
+    "isaacsim": "5.1.0.0",
+    "torch": "2.7.0+cu128",
+    "torchvision": "0.22.0+cu128",
+    "diffusers": "0.39.0",
+    "einops": "0.8.2",
+    "h5py": "3.16.0",
+    "numpy": "1.26.0"
+  },
+  "project_imports": {
+    "course": "/home/CNS2025331827/docs/tight-insertion-policy-acceptance-20261122/course/__init__.py",
+    "visuotactile": "/home/CNS2025331827/docs/tight-insertion-policy-acceptance-20261122/visuotactile/__init__.py",
+    "evaluation": "/home/CNS2025331827/docs/tight-insertion-policy-acceptance-20261122/evaluation/__init__.py"
+  }
+}

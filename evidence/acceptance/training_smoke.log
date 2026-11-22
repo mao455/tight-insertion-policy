@@ -1,0 +1,29 @@
+RUNNING ['.venv/bin/python', '-m', 'course.download', 'demo']
+Verified isaaclab-090aed18.tar.gz
+Verified demo-A_130_50.tar.gz
+Ready: demo
+RUNNING ['.venv/bin/python', '-m', 'course.download', 'smoke']
+Verified training130-config.tar.gz
+Verified isaaclab-090aed18.tar.gz
+Verified A_72_transformer.pt
+Verified A_72_dp.pt
+Verified training130-smoke.tar.gz
+Verified demo-A_130_50.tar.gz
+Ready: smoke
+RUNNING ['.venv/bin/python', '-m', 'course.train', 'smoke', '--root', 'outputs/smoke']
+Waiting for GPU0: 6261 MiB free; need 8 GiB
+Waiting for GPU0: 6261 MiB free; need 8 GiB
+/home/CNS2025331827/miniconda3/envs/isaaclab/lib/python3.11/site-packages/requests/__init__.py:113: RequestsDependencyWarning: urllib3 (2.6.3) or chardet (7.4.3)/charset_normalizer (3.3.2) doesn't match a supported version!
+  warnings.warn(
+Prepared /home/CNS2025331827/docs/tight-insertion-policy-acceptance-20261122/outputs/smoke
+/home/CNS2025331827/docs/tight-insertion-policy-acceptance-20261122/resources/dinov2/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/CNS2025331827/docs/tight-insertion-policy-acceptance-20261122/resources/dinov2/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/CNS2025331827/docs/tight-insertion-policy-acceptance-20261122/resources/dinov2/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+Regenerated nominal with new DP: layout10_train_28817000
+Regenerated nominal with new DP: layout10_train_28817001
+Regenerated nominal with new DP: layout10_validation_28818000
+{"passed": true, "scope": "Real-data pipeline smoke only; one DP update and two Transformer updates, not full retraining", "dp_updates": 1, "dp_parameter_max_change": 2.9999762773513794e-05, "transformer_updates": 2, "transformer_parameter_max_change": 0.00020012259483337402, "transformer_losses": [0.0404546856880188, 0.03785640746355057], "nominal_episodes": ["layout10_train_28817000", "layout10_train_28817001", "layout10_validation_28818000"], "dp_sha256": "df23da340c1c0f8e381530bcb766ffafce20bd03cbc4983953c079ee4b331c1f", "transformer_sha256": "ac08fda5b4215b32a6600a8f047f042003ec3f2962ba37a36c0939378437b57c", "pair_reload": true, "transformer_reload_prediction_max_abs": 0.0}
+CLEAN CLONE SMOKE COMPLETE
